@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>作品列表页</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/wlh-zuoping-list.css">
+	<title>作品列表页</title>	
+	<meta name="renderer" content="webkit"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/wlh-zplist.css">
+	<script src="js/jquery.min.js"></script>
 </head>
 <body>
 <!--main start-->
@@ -15,28 +18,284 @@
 	<!--列表上的定位 start-->
 	<div class="wlh-position"></div>
 	<!--列表上的定位 end-->
-	<!--列表内容 start-->
-	<div class="wlh-zpbox">
-		<!--面包屑导航 start-->
-		<div class="wlh-zp-mbxnav">
-			<span class="wlh-mbx"></span>
-			<i style="color:#3f90fe">首页&nbsp;&nbsp;></i>
-			<i>推荐作品&nbsp;&nbsp;></i>
-		</div>
-		<!--面包屑导航 end-->
-		<!--作品标题 start-->
-		<div class="wlh-zp-title">
-			<div class="wlh-zp-titleimg"><img src="images/wlh/wlh_zp.png" alt=""></div>
-			<div class="wlh-zp-titleword"></div>
-			<div class="wlh-zp-titleword"></div>
-			<div class="wlh-zp-titleword"></div>
-		</div>
-		<!--作品标题 end-->
+	<!--面包屑导航 start-->
+	<div class="wlh-zp-mbxnav">
+		<span class="wlh-mbx"></span>
+		<i style="color:#3f90fe">首页&nbsp;&nbsp;></i>
+		<i>推荐作品&nbsp;&nbsp;></i>
 	</div>
+	<!--面包屑导航 end-->
+	<!--作品标题 start-->
+	<div class="wlh-zp-title">
+		<div class="wlh-zp-titleimg"><img src="images/wlh/wlh_zp.png" alt=""></div>
+		<div class="wlh-zp-titleword wlh-title1"></div>
+		<div class="wlh-zp-titleword wlh-title2"></div>
+		<div class="wlh-zp-titleword wlh-title3"></div>
+	</div>
+	<!--作品标题 end-->
+
+	<!--列表内容 start-->
+    <div class="wlh-zp-conbox">
+    	<!--作品列表 1 start-->
+    	<div class="wlh-zp-con">
+    		<a href="#">
+    			<!--作品图片-->
+	    		<div class="wlh-zp-conimg">
+	    			<img src="images/wlh/wlh_zp1.png" alt="">
+	    		</div>
+	    		<!--作品简介-->
+	    		<div class="wlh-zp-jianjie">
+	    			<div class="wlh-jbxi">
+	    				<div class="wlh-jbxi-left">
+	    					<!--作者-->
+	    					<h4>Bigd country for pixel</h4>
+		    				<p class="wlh-jj">像素设计图，让你体验不一样的感觉。</p>
+		    				<div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-see-img"></div>
+	                                <span>浏览量</span>
+	                                <span>2983</span>
+			    				</div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-pl-img"></div>
+	                                <span>评论量</span>
+	                                <span>1252</span>
+			    				</div>
+		    				</div>
+	    				</div>
+	    				<!--作者的头像-->
+	    				<div class="wlh-jbxi-right wlh-radius">
+	    					<img src="images/wlh/wlh_photo.png" alt="">
+	    				</div>
+	    			</div>
+	    			<ul class="wlh-key">
+	    				<li class="wlh-key-radius">人物设计</li>
+	    				<li class="wlh-key-radius">插图</li>
+	    				<li class="wlh-key-radius">印刷设计</li>
+	    				<li class="wlh-xin"></li>
+	    			</ul>
+	    		</div>
+	    		<div class="wlh-video"><img src="images/wlh/wlh_video.png" alt=""></div>
+    	    </a>
+    	</div>
+    	<!--作品列表 1 start-->
+
+    	<div class="wlh-zp-con">
+    		<a href="#">
+    			<!--作品图片-->
+	    		<div class="wlh-zp-conimg">
+	    			<img src="images/wlh/wlh_zp1.png" alt="">
+	    		</div>
+	    		<!--作品简介-->
+	    		<div class="wlh-zp-jianjie">
+	    			<div class="wlh-jbxi">
+	    				<div class="wlh-jbxi-left">
+	    					<!--作者-->
+	    					<h4>Bigd country for pixel</h4>
+		    				<p class="wlh-jj">像素设计图，让你体验不一样的感觉。</p>
+		    				<div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-see-img"></div>
+	                                <span>浏览量</span>
+	                                <span>2983</span>
+			    				</div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-pl-img"></div>
+	                                <span>评论量</span>
+	                                <span>1252</span>
+			    				</div>
+		    				</div>
+	    				</div>
+	    				<!--作者的头像-->
+	    				<div class="wlh-jbxi-right wlh-radius">
+	    					<img src="images/wlh/wlh_photo.png" alt="">
+	    				</div>
+	    			</div>
+	    			<ul class="wlh-key">
+	    				<li class="wlh-key-radius">人物设计</li>
+	    				<li class="wlh-key-radius">插图</li>
+	    				<li class="wlh-key-radius">印刷设计</li>
+	    				<li class="wlh-xin"></li>
+	    			</ul>
+	    		</div>
+	    		<div class="wlh-video"><img src="images/wlh/wlh_video.png" alt=""></div>
+    	    </a>
+    	</div>
+    	<div class="wlh-zp-con">
+    		<a href="#">
+    			<!--作品图片-->
+	    		<div class="wlh-zp-conimg">
+	    			<img src="images/wlh/wlh_zp1.png" alt="">
+	    		</div>
+	    		<!--作品简介-->
+	    		<div class="wlh-zp-jianjie">
+	    			<div class="wlh-jbxi">
+	    				<div class="wlh-jbxi-left">
+	    					<!--作者-->
+	    					<h4>Bigd country for pixel</h4>
+		    				<p class="wlh-jj">像素设计图，让你体验不一样的感觉。</p>
+		    				<div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-see-img"></div>
+	                                <span>浏览量</span>
+	                                <span>2983</span>
+			    				</div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-pl-img"></div>
+	                                <span>评论量</span>
+	                                <span>1252</span>
+			    				</div>
+		    				</div>
+	    				</div>
+	    				<!--作者的头像-->
+	    				<div class="wlh-jbxi-right wlh-radius">
+	    					<img src="images/wlh/wlh_photo.png" alt="">
+	    				</div>
+	    			</div>
+	    			<ul class="wlh-key">
+	    				<li class="wlh-key-radius">人物设计</li>
+	    				<li class="wlh-key-radius">插图</li>
+	    				<li class="wlh-key-radius">印刷设计</li>
+	    				<li class="wlh-xin"></li>
+	    			</ul>
+	    		</div>
+	    		<div class="wlh-video"><img src="images/wlh/wlh_video.png" alt=""></div>
+    	    </a>
+    	</div>
+    	<div class="wlh-zp-con">
+    		<a href="#">
+    			<!--作品图片-->
+	    		<div class="wlh-zp-conimg">
+	    			<img src="images/wlh/wlh_zp1.png" alt="">
+	    		</div>
+	    		<!--作品简介-->
+	    		<div class="wlh-zp-jianjie">
+	    			<div class="wlh-jbxi">
+	    				<div class="wlh-jbxi-left">
+	    					<!--作者-->
+	    					<h4>Bigd country for pixel</h4>
+		    				<p class="wlh-jj">像素设计图，让你体验不一样的感觉。</p>
+		    				<div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-see-img"></div>
+	                                <span>浏览量</span>
+	                                <span>2983</span>
+			    				</div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-pl-img"></div>
+	                                <span>评论量</span>
+	                                <span>1252</span>
+			    				</div>
+		    				</div>
+	    				</div>
+	    				<!--作者的头像-->
+	    				<div class="wlh-jbxi-right wlh-radius">
+	    					<img src="images/wlh/wlh_photo.png" alt="">
+	    				</div>
+	    			</div>
+	    			<ul class="wlh-key">
+	    				<li class="wlh-key-radius">人物设计</li>
+	    				<li class="wlh-key-radius">插图</li>
+	    				<li class="wlh-key-radius">印刷设计</li>
+	    				<li class="wlh-xin"></li>
+	    			</ul>
+	    		</div>
+	    		<div class="wlh-video"><img src="images/wlh/wlh_video.png" alt=""></div>
+    	    </a>
+    	</div>
+    	<div class="wlh-zp-con">
+    		<a href="#">
+    			<!--作品图片-->
+	    		<div class="wlh-zp-conimg">
+	    			<img src="images/wlh/wlh_zp1.png" alt="">
+	    		</div>
+	    		<!--作品简介-->
+	    		<div class="wlh-zp-jianjie">
+	    			<div class="wlh-jbxi">
+	    				<div class="wlh-jbxi-left">
+	    					<!--作者-->
+	    					<h4>Bigd country for pixel</h4>
+		    				<p class="wlh-jj">像素设计图，让你体验不一样的感觉。</p>
+		    				<div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-see-img"></div>
+	                                <span>浏览量</span>
+	                                <span>2983</span>
+			    				</div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-pl-img"></div>
+	                                <span>评论量</span>
+	                                <span>1252</span>
+			    				</div>
+		    				</div>
+	    				</div>
+	    				<!--作者的头像-->
+	    				<div class="wlh-jbxi-right wlh-radius">
+	    					<img src="images/wlh/wlh_photo.png" alt="">
+	    				</div>
+	    			</div>
+	    			<ul class="wlh-key">
+	    				<li class="wlh-key-radius">人物设计</li>
+	    				<li class="wlh-key-radius">插图</li>
+	    				<li class="wlh-key-radius">印刷设计</li>
+	    				<li class="wlh-xin"></li>
+	    			</ul>
+	    		</div>
+	    		<div class="wlh-video"><img src="images/wlh/wlh_video.png" alt=""></div>
+    	    </a>
+    	</div>
+    	<div class="wlh-zp-con">
+    		<a href="#">
+    			<!--作品图片-->
+	    		<div class="wlh-zp-conimg">
+	    			<img src="images/wlh/wlh_zp1.png" alt="">
+	    		</div>
+	    		<!--作品简介-->
+	    		<div class="wlh-zp-jianjie">
+	    			<div class="wlh-jbxi">
+	    				<div class="wlh-jbxi-left">
+	    					<!--作者-->
+	    					<h4>Bigd country for pixel</h4>
+		    				<p class="wlh-jj">像素设计图，让你体验不一样的感觉。</p>
+		    				<div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-see-img"></div>
+	                                <span>浏览量</span>
+	                                <span>2983</span>
+			    				</div>
+			    				<div class="wlh-see">
+			    					<div class="wlh-pl-img"></div>
+	                                <span>评论量</span>
+	                                <span>1252</span>
+			    				</div>
+		    				</div>
+	    				</div>
+	    				<!--作者的头像-->
+	    				<div class="wlh-jbxi-right wlh-radius">
+	    					<img src="images/wlh/wlh_photo.png" alt="">
+	    				</div>
+	    			</div>
+	    			<ul class="wlh-key">
+	    				<li class="wlh-key-radius">人物设计</li>
+	    				<li class="wlh-key-radius">插图</li>
+	    				<li class="wlh-key-radius">印刷设计</li>
+	    				<li class="wlh-xin"></li>
+	    			</ul>
+
+	    		</div>
+                <div class="wlh-video"><img src="images/wlh/wlh_video.png" alt=""></div>
+    	    </a>
+    	</div>
+    </div>
 	<!--列表内容 end-->
 </div>
 </div>
 <!--列表 end-->
 
 </body>
+<script>
+	$(".wlh-zp-jianjie>.wlh-key>.wlh-key-radius").each(function(i,obj){
+        $(obj).addClass("wlh-key"+(i+1));
+	})
+</script>
 </html>

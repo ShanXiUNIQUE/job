@@ -5,6 +5,15 @@
 ## 网页内宽：1200px
 ## 开发规范
 ### 注意：网站要兼容IE8不要使用css3选择器等不兼容IE8的东西。
+* 圆角可以通过以下方式兼容
+
+```
+.box-radius {
+  border-radius: 15px;
+  behavior: url(border-radius.htc);
+}
+//注意：﻿﻿htc文件是要放在服务器上，放在本地测试是不行的！
+```
 
 ### 规范
 #### 目录结构
@@ -18,6 +27,7 @@
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|----/lx/<br>
 |--------css/<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|----reset.css 重置默认样式<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|----border-radius.htc IE8兼容圆角<br>
 |--------js/<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|----jquery.min.js<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|----jquery.lazyload.min.js<br>

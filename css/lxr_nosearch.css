@@ -1,16 +1,13 @@
-*{
-	margin: 0;
-}
+
 .lxr_no_content{
 	width: 100%;
 	min-width: 1200px;
 	height: 944px;
-	border: 1px solid #fff;
+	margin-top: 105px;
 }
 
 .lxr_no_title{
 	margin:0 auto;
-	margin-top: 105px;
 	width: 1200px;
 	height: 60px;
 }

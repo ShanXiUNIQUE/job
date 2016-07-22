@@ -294,8 +294,13 @@
 
 </body>
 <script>
+    var wlh_num=0;
 	$(".wlh-zp-jianjie>.wlh-key>.wlh-key-radius").each(function(i,obj){
-        $(obj).addClass("wlh-key"+(i+1));
+		if(wlh_num%3==0){
+			wlh_num=0;
+		}
+        $(obj).addClass("wlh-key"+(wlh_num+1));
+        wlh_num++;
 	})
 </script>
 </html>

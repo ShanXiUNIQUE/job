@@ -1,0 +1,122 @@
+@w:1200px;        //网站内宽
+@il:'../images/'; //图片地址
+@ilh:'../images/hnz/'; //图片地址 hnz文件夹
+body{
+	font-family: Helvetica, Arial,sans-serif;
+}
+//导航
+.hnz-navbox{
+	width: 100%;
+	height: 144px;
+	background:rgba(21, 92, 134, .5);
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1000;
+	.hnz-nav{
+		width:@w;
+		height:100%;
+		margin:0 auto;
+		// background: red;
+		.hnz-logo{
+			float: left;
+			width:76px;
+			height:100%;
+			position: relative;
+			img{
+				position: absolute;
+				margin:auto 0;
+				top:0;
+				bottom:0;
+			}
+			// margin-left:-140px;
+			margin-left:-80px;
+		}
+		.hnz-list{
+			height: 65px;
+			float: left;
+			margin-top:50px;
+			li{
+				// width:230px;
+				width:200px;
+				height:100%;
+				float: left;
+				border-right:1px dashed #aaaaaa;
+				text-align: center;
+				a{
+					height: 100%;
+					display: inline-block;
+					color:#fff;
+					span{
+						display: block;
+						width:100%;
+						height:30px;
+						text-align: left;
+						line-height: 30px;
+						font-size: 18px;
+						&.hnz-en{
+							color:#bdbebf;
+							background: url("@{ilh}hnz-line.png") no-repeat 0 bottom;
+						}
+						&.hnz-zh{
+							height: 35px;
+						}
+					}
+					&.hnz-active,&:hover{
+						.hnz-zh{
+							background: url("@{ilh}hnz-nav-active.png") no-repeat 0 bottom;
+						}
+					}
+				}
+
+			}
+		}
+		.hnz-search{
+			width:420px;
+			height:45px;
+			border:2px solid #b6cad2;
+			float: right;
+			margin-top: 60px;
+			margin-right: -40px;
+			position: relative;
+			border-radius:45px/2;
+			.hnz-pointer{
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+				background: #ffd015;
+				margin:37px/2 10px;
+				float: left;
+			}
+			input{
+				border:0;
+				font-size: 16px;
+				color:#fff;
+				outline: 0;
+				background: transparent;
+				width: 300px;
+				height: 100%;
+			}
+			.search-btn{
+				float: right;
+				width: 80px;
+				height: 45px;
+				background: url("@{ilh}hnz-search.png") no-repeat 0 0;
+			}
+		}
+	}
+}
+
+//轮播
+.hnz-banner-box{
+	width: 100%;
+	height: 834px;
+	position: relative;
+	overflow-x: hidden;
+	.hnz-banner-bg{
+		height: 100%;
+		position: absolute;
+		left:50%;
+		margin-left:-1920px/2;
+	}
+}

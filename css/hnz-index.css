@@ -1,0 +1,111 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.hnz-navbox {
+  width: 100%;
+  height: 144px;
+  background: rgba(21, 92, 134, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.hnz-navbox .hnz-nav {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.hnz-navbox .hnz-nav .hnz-logo {
+  float: left;
+  width: 76px;
+  height: 100%;
+  position: relative;
+  margin-left: -80px;
+}
+.hnz-navbox .hnz-nav .hnz-logo img {
+  position: absolute;
+  margin: auto 0;
+  top: 0;
+  bottom: 0;
+}
+.hnz-navbox .hnz-nav .hnz-list {
+  height: 65px;
+  float: left;
+  margin-top: 50px;
+}
+.hnz-navbox .hnz-nav .hnz-list li {
+  width: 200px;
+  height: 100%;
+  float: left;
+  border-right: 1px dashed #aaaaaa;
+  text-align: center;
+}
+.hnz-navbox .hnz-nav .hnz-list li a {
+  height: 100%;
+  display: inline-block;
+  color: #fff;
+}
+.hnz-navbox .hnz-nav .hnz-list li a span {
+  display: block;
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+.hnz-navbox .hnz-nav .hnz-list li a span.hnz-en {
+  color: #bdbebf;
+  background: url("../images/hnz/hnz-line.png") no-repeat 0 bottom;
+}
+.hnz-navbox .hnz-nav .hnz-list li a span.hnz-zh {
+  height: 35px;
+}
+.hnz-navbox .hnz-nav .hnz-list li a.hnz-active .hnz-zh,
+.hnz-navbox .hnz-nav .hnz-list li a:hover .hnz-zh {
+  background: url("../images/hnz/hnz-nav-active.png") no-repeat 0 bottom;
+}
+.hnz-navbox .hnz-nav .hnz-search {
+  width: 420px;
+  height: 45px;
+  border: 2px solid #b6cad2;
+  float: right;
+  margin-top: 60px;
+  margin-right: -40px;
+  position: relative;
+  border-radius: 22.5px;
+}
+.hnz-navbox .hnz-nav .hnz-search .hnz-pointer {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffd015;
+  margin: 18.5px 10px;
+  float: left;
+}
+.hnz-navbox .hnz-nav .hnz-search input {
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+  outline: 0;
+  background: transparent;
+  width: 300px;
+  height: 100%;
+}
+.hnz-navbox .hnz-nav .hnz-search .search-btn {
+  float: right;
+  width: 80px;
+  height: 45px;
+  background: url("../images/hnz/hnz-search.png") no-repeat 0 0;
+}
+.hnz-banner-box {
+  width: 100%;
+  height: 834px;
+  position: relative;
+  overflow-x: hidden;
+}
+.hnz-banner-box .hnz-banner-bg {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+}

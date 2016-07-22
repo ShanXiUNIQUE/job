@@ -1,0 +1,52 @@
+.box{
+	width: 100%;
+	height: 232px;
+	background: pink;
+}
+.wlh-contentbox{
+	width: 100%;
+	height: auto;
+	background: #f4f4f4;
+}
+.wlh-contentbox .wlh-content{
+	width: 1200px;
+	height: auto;
+	margin:0 auto;
+	background: plum;
+	padding-top: 192px;
+}
+.wlh-contentbox .wlh-content .wlh-zpbox .wlh-zp-mbxnav{
+	width: 100%;
+	height: 25px;
+	margin-bottom: 39px;
+	line-height: 25px;
+}
+.wlh-contentbox .wlh-content .wlh-zpbox .wlh-zp-mbxnav .wlh-mbx{
+	float: left;
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url(../images/small_img.png) no-repeat -674px -67px;
+}
+.wlh-contentbox .wlh-content .wlh-zpbox .wlh-zp-mbxnav i{
+	float: left;
+	font-style: normal;
+	font-size: 12px;
+	color: #939393;
+	margin-left: 5px;
+}
+.wlh-contentbox .wlh-content .wlh-zpbox .wlh-zp-title{
+	width: 100%;
+	height: 42px;
+	margin-bottom: 36px;
+	background: red;
+}
+.wlh-contentbox .wlh-content .wlh-zpbox .wlh-zp-title .wlh-zp-titleimg{
+	width: 286px;
+	height: 33px;
+	overflow: hidden;
+	float: left;
+}
+.wlh-contentbox .wlh-content .wlh-zpbox .wlh-zp-title .wlh-zp-titleword{
+	
+}

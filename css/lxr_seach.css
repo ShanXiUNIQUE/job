@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+}
+.lxr_no_content{
+	width: 100%;
+	min-width: 1200px;
+	height: 944px;
+	border: 1px solid #fff;
+}
+
+.lxr_no_title{
+	margin:0 auto;
+	margin-top: 105px;
+	width: 1200px;
+	height: 60px;
+}
+
+.lxr_title_left{
+	float: left;
+}
+
+.lxr_no_title_left{
+	width: 250px;
+	height: 32px;
+	background-image: url(../images/lxr/lxr1.png);
+	background-repeat: no-repeat;
+	background-position: 0px -80px;
+	font-size: 24px;
+	line-height: 34px;
+}
+
+.lxr_no_title_left .one{
+	margin-left: 34px;
+}
+
+.lxr_title_xian{
+	width: 61px;
+	height: 2px;
+	margin-top: 14px;
+	background: #B9B9B9;
+}
+
+.lxr_title_center{
+	float: left;
+	width: 440px;
+	margin-left: 30px;
+	overflow: hidden;
+}
+
+.lxr_title_center div{
+	float: left;
+	margin-left: 25px;
+}
+
+.lxr_title_zp{
+	background: url(../images/lxr/lxr1.png) no-repeat 0 -149px;
+	width: 131px;
+	height:46px;
+	text-align: center;
+	line-height: 44px;
+	color: #fff;
+}
+
+.lxr_title_wz{
+	background: url(../images/lxr/lxr1.png) no-repeat 0 -197px;
+	width: 115px;
+	height: 46px;
+	color: #2CCEF2;
+	font-size: 22px;
+	text-align: center;
+	line-height: 44px;
+}
+
+.lxr_title_sp{
+	background: url(../images/lxr/lxr1.png) no-repeat 0 -197px;
+	width: 115px;
+	height: 46px;
+	color: #2CCEF2;
+	font-size: 22px;
+	text-align: center;
+	line-height: 44px;
+}
+
+.lxr_title_right{
+	float: right; 
+	position: relative;
+}
+
+.lxr_title_right input{
+	width: 312px;
+	height:42px;
+	background:#FBFBFB;
+	border: 2px solid #E0E0E0;
+	padding-left: 20px;
+	font-size: 20px;
+	border-radius: 22px;
+  behavior: url(border-radius.htc);
+}
+
+.lxr_title_right .lxr_sm_ssk{
+	width: 39px;
+	height: 38px;
+	background: url(../images/lxr/lxr1.png) no-repeat 0 -112px;
+	position: absolute;
+	top: 6px;right: 16px;
+}
+
+.lxr_nohas{
+	width: 330px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 180px;
+}
+
+.lxr_nohas_haitun{
+	display: inline-block;
+	width: 80px;
+	height:80px;
+	background: url(../images/lxr/lxr1.png);
+}
+
+.lxr_nohas span{
+	font-size: 26px;
+	color: #626262;
+}
+
+.lxr_nohas span b{
+	color: #F5D760;
+	font-weight: normal;
+}

@@ -6,7 +6,8 @@
 ## 开发规范
 ### <span style='color:red'>注意：网站要兼容IE8不要使用css3选择器等不兼容IE8的东西。</span>
 ### 文件统一放置对应文件夹中
-### 命名规范
+### 规范
+#### 命名规范
 - css文件  如： 文件名  hnz-index.css  <br>
                 类名 如 .hnz-banner  #hnz-nav （一定要有后代保护）
   
@@ -15,10 +16,14 @@
 - image文件
   文件名 如：hnz-logo.png<br/>
   所有文件 统一放置到自己姓名简拼的文件夹下<br/> 如   images/hnz/ hnz-logo.png<br/> images/wlh/wlh-copy.png
-  
+#### 注释
+注释结构清晰
+\<!-- #nav 导航开始  --\><br>
+\<!-- #nav 导航结束  --\>
 
+#### 小图标统一采用图片精灵
 
 
 ## 工具库
 - jQuery v1.12.4
-- 
+- 可使用jquery插件、必须有插件说明 接口必须要有描述

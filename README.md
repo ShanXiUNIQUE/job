@@ -41,7 +41,8 @@
   
 - js文件   如： 文件名  hnz-index.js  <br>
   错误 window.onload = function(){}  <br>
-  正确 $(function(){ }) || window.addEventListener('load',function(){}) 
+  正确 $(function(){ }) || window.addEventListener('load',function(){}) <br>
+  js文件引用统一放置在body结束之前
 - image文件
   文件名 如：hnz-logo.png<br/>
   所有文件 统一放置到自己姓名简拼的文件夹下<br/> 如   images/hnz/ hnz-logo.png<br/> images/wlh/wlh-copy.png

@@ -1,0 +1,11 @@
+.lxr_hastitle_right{
+	width: 165px;
+	height: 46px;
+	background: url(../images/lxr/lxr2.png) no-repeat center;
+	margin-right: 30px;
+	float: right;
+	font-size: 20px;
+	color: #424242;
+	text-align: center;
+	line-height: 44px;
+}

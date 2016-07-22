@@ -16,10 +16,13 @@
 - image文件
   文件名 如：hnz-logo.png<br/>
   所有文件 统一放置到自己姓名简拼的文件夹下<br/> 如   images/hnz/ hnz-logo.png<br/> images/wlh/wlh-copy.png
+
 #### 注释
-注释结构清晰
+> 注释结构清晰
+
 \<!-- #nav 导航开始  --\><br>
 \<!-- #nav 导航结束  --\>
+
 
 #### 小图标统一采用图片精灵
 

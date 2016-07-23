@@ -6,17 +6,42 @@
 	<meta name="renderer" content="webkit"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 	<link rel="stylesheet" href="css/reset.css" />
-	<link rel="stylesheet" href="css/wlh-zplist.css">
+	<link rel="stylesheet" href="css/wlh-zplist.css">	
 	<script src="js/jquery.min.js"></script>
 </head>
 <body>
 <!--main start-->
-<div class="box"></div>
 <!--列表 start-->
 <div class="wlh-contentbox">
 <div class="wlh-content">
 	<!--列表上的定位 start-->
-	<div class="wlh-position"></div>
+	<div class="wlh-pos">
+		<div class="wlh-pos-blue">
+			<img src="images/wlh/wlh_word.png" alt="">
+			<p>扁平化商务数据思维逻辑互联网扁平化商务数据思维逻辑互联网扁平化商务数据思维逻辑互联网</p>
+		</div>
+		<div class="wlh-pos-white">
+			<ul>
+				<li class="wlh-pos-w">人物设计</li>
+				<li class="wlh-pos-w">插图</li>
+				<li class="wlh-pos-w">印刷设计</li>
+				<li class="wlh-zp-data">2016-7-23</li>
+			</ul>
+			<p>扁平化商务数据思维逻辑互联网扁平化商务数据思维逻扁平化商务数据思维逻辑互联网扁平化商务数据思维逻扁平化商务数据。 </p>
+			<div>
+				<div class="wlh-see">
+					<div class="wlh-see-img"></div>
+                    <span>浏览量</span>
+                    <span>2983</span>
+				</div>
+				<div class="wlh-see">
+					<div class="wlh-pl-img"></div>
+                    <span>评论量</span>
+                    <span>1252</span>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!--列表上的定位 end-->
 	<!--面包屑导航 start-->
 	<div class="wlh-zp-mbxnav">
@@ -25,13 +50,23 @@
 		<i>推荐作品&nbsp;&nbsp;></i>
 	</div>
 	<!--面包屑导航 end-->
-	<!--作品标题 start-->
+	<!-- 作品标题 start
 	<div class="wlh-zp-title">
 		<div class="wlh-zp-titleimg"><img src="images/wlh/wlh_zp.png" alt=""></div>
-		<div class="wlh-zp-titleword wlh-title1"></div>
-		<div class="wlh-zp-titleword wlh-title2"></div>
-		<div class="wlh-zp-titleword wlh-title3"></div>
-	</div>
+		作品分类 start
+		<div class="wlh-zp-titleword">
+			<div class="wlh-zp-title-h">
+				<p>作品分类</p>
+	                <span></span>
+			</div>
+			<div class="wlh-zp-title-con">
+				
+			</div>
+		</div>
+		作品分类 end		
+		<div class="wlh-zp-titleword"></div>
+		<div class="wlh-zp-titleword"></div>
+	</div> -->
 	<!--作品标题 end-->
 
 	<!--列表内容 start-->
@@ -294,13 +329,18 @@
 
 </body>
 <script>
-    var wlh_num=0;
-	$(".wlh-zp-jianjie>.wlh-key>.wlh-key-radius").each(function(i,obj){
-		if(wlh_num%3==0){
-			wlh_num=0;
-		}
-        $(obj).addClass("wlh-key"+(wlh_num+1));
-        wlh_num++;
-	})
+	function colorClass(ele,classname){
+		var wlh_num1=0;
+        $(ele).each(function(i,obj){
+			if(wlh_num1%3==0){
+				wlh_num1=0;
+			}
+	        $(obj).addClass(classname+(wlh_num1+1));
+	        wlh_num1++;
+		})
+	}
+	colorClass(".wlh-zp-jianjie>.wlh-key>.wlh-key-radius","wlh-key");
+	colorClass(".wlh-zp-title>.wlh-zp-titleword","wlh-title");
+	colorClass(".wlh-pos-white>ul>.wlh-pos-w","wlh-pos-white");
 </script>
 </html>

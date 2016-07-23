@@ -2,6 +2,7 @@
 @url:'../images/wlh';
 @ur:'../images';
 
+
 .wlh-contentbox{
 	width:100%;
 	height:auto;
@@ -9,8 +10,109 @@
 	.wlh-content{
 	    width:@w;
 	    height: auto;
-		margin:0 auto;
-		padding-top: 192px;
+	  	margin:0 auto;
+	  	padding-top: 192px;
+			position:relative;
+			.wlh-pos{
+				width: 1200px;
+				height:256px;
+				position: absolute;
+				left:0;
+				top:-93px;
+				.wlh-pos-blue{
+					width: 528px;
+					height: 215px;
+					box-shadow: 0 0 10px rgba(129,136,138,0.5);
+					background: #10c8f0;
+					padding-top: 41px;
+					padding-left: 63px;
+					p{
+						color: #fff;
+						margin-top: 24px;
+						width: 415px;
+						overflow: hidden;
+						font-size: 16px;
+					}
+				}
+				.wlh-pos-white{
+					width: 602px;
+					height: 122px;
+					background: url("@{url}/wlh_banner_bottom.png");
+					position: absolute;
+					right:0;
+					top:57px;
+					padding-left: 40px;
+					padding-right: 40px;
+					padding-top: 20px;
+					ul{
+						line-height: 28px;
+						overflow: hidden;
+						li{float:left;margin-right: 10px;}
+						.wlh-pos-white1{
+							width:100px;
+							height:28px;
+							background: #ffc453;
+							text-align: center;
+							border-radius: 10px;
+							behavior: url(border-radius.htc);
+						}
+						.wlh-pos-white2{
+							width:70px;
+							height:28px;
+							background: #ff6a91;
+							text-align: center;
+							border-radius: 10px;
+							behavior: url(border-radius.htc);
+						}
+						.wlh-pos-white3{
+							width:110px;
+							height:28px;
+							background: #3ce694;
+							text-align: center;
+							border-radius: 10px;
+							behavior: url(border-radius.htc);
+						}
+						.wlh-zp-data{
+							float: right;
+							color: #8f8f8f;
+							font-size: 12px;
+						}
+					}
+					p{
+						margin-top: 16px;
+						font-size: 14px;
+						color:#767676;
+					}
+					div{
+						float: right;
+						.wlh-see{
+						float:left;
+						margin-right:5px;
+						line-height:20px;
+							.wlh-see-img{
+							width:16px;
+							height:16px;
+							background:url("@{ur}/small_img.png") no-repeat -684px -46px;
+							float:left;
+							line-height:16px;
+							}
+							.wlh-pl-img{
+							width:16px;
+							height:16px;
+							background:url("@{ur}/small_img.png") no-repeat -663px -46px;
+							float:left;
+							}
+							span{
+							color:#ababab;
+							font-size:12px;
+							float:left;
+							margin:0 5px;
+							}
+						}
+					}
+
+				}
+			}
 	    .wlh-zp-mbxnav{
 		    width: 100%;
 			height: 25px;
@@ -64,7 +166,7 @@
 	           width:391px;
 	           height:445px;
 	           float:left;
-	           margin:0 4px;	       
+	           margin:0 4px;
 	           margin-top:20px;
 	           position:relative;
 	           .wlh-zp-conimg{
@@ -88,6 +190,7 @@
 	                overflow:hidden;
 	                .wlh-jbxi-left{
 	                    float:left;
+											font-family: "微软雅黑";
 	                    h4{
 	                      color:#403e3e;
 	                      font-size:16px;
@@ -135,9 +238,9 @@
                        padding:3px;
 	                }
 	                .wlh-radius {
-					  border-radius: 50%;
-					  behavior: url(border-radius.htc);
-					}
+									  border-radius: 50%;
+									  behavior: url(border-radius.htc);
+									}
 	              }
 	              .wlh-key{
 	                width:100%;
@@ -176,10 +279,10 @@
 	                right:10px;
 	                bottom:0px;
 	                width:114px;
-	                height:39px;	                
+	                height:39px;
 	                box-shadow:0 3px 3px rgba(137,135,135,0.2);
 	            }
 	        }
 	    }
-	}	
+	}
 }

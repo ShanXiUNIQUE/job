@@ -1,5 +1,6 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
+  background-color: #f4f4f4;
 }
 .hnz-navbox {
   width: 100%;
@@ -73,13 +74,271 @@ body {
 }
 .hnz-banner-box {
   width: 100%;
-  height: 834px;
+  height: 1000px;
   position: relative;
   overflow-x: hidden;
 }
 .hnz-banner-box .hnz-banner-bg {
-  height: 100%;
   position: absolute;
   left: 50%;
   margin-left: -960px;
+}
+.hnz-banner-box .hnz-banner {
+  width: 1440px;
+  height: 744px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  margin-left: -720px;
+  background: yellow;
+}
+.hnz-banner-box .hnz-banner ul {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.hnz-banner-box .hnz-banner ul li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.hnz-banner-box .hnz-banner ul li .title {
+  width: 590px;
+  height: 256px;
+  background: #10c8f0;
+  position: absolute;
+  left: -120px;
+  top: 180px;
+}
+.hnz-banner-box .hnz-banner ul li .title img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.hnz-banner-box .hnz-banner .hnz-index-box {
+  position: absolute;
+  top: 300px;
+  right: -120px;
+  width: 120px;
+  height: 240px;
+  background: url("../images/small_img.png") no-repeat -580px -102px;
+}
+.hnz-banner-box .hnz-banner .hnz-index-box .hnz-index-l {
+  width: 50px;
+  height: 135px;
+  float: left;
+  padding-top: 30px;
+}
+.hnz-banner-box .hnz-banner .hnz-index-box .hnz-index-l span {
+  margin: 15px 0 0 20px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("../images/small_img.png") no-repeat -684px -348px;
+}
+.hnz-banner-box .hnz-banner .hnz-index-box .hnz-index-l span.hnz-hot {
+  background: url("../images/small_img.png") no-repeat -654px -348px;
+}
+.hnz-banner-box .hnz-banner .hnz-index-box .hnz-index-r {
+  width: 70px;
+  height: 65px;
+  padding-top: 100px;
+  float: right;
+}
+.hnz-banner-box .hnz-banner .hnz-index-box .hnz-index-r span {
+  float: left;
+  width: 20%;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+}
+.hnz-banner-box .hnz-banner .hnz-index-box .hnz-index-r span.hnz-index-now {
+  width: 40%;
+  font-size: 24px;
+  text-align: right;
+}
+.hnz-banner-box .hnz-banner .hnz-index-box .hnz-index-r span.hnz-index-all {
+  text-align: left;
+  width: 40%;
+}
+.hnz-banner-box .hnz-banner .hnz-index-box .hnz-index-btn {
+  width: 50px;
+  padding-left: 30px;
+  height: 40px;
+  float: left;
+  background: url("../images/small_img.png") no-repeat -621px -370px;
+}
+.hnz-banner-box .hnz-banner .hnz-index-box .hnz-index-btn span {
+  width: 20px;
+  height: 100%;
+  float: left;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 40px;
+  color: #f0c310;
+  cursor: pointer;
+  font-family: monospace;
+}
+.hnz-slide {
+  width: 66px;
+  height: 700px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1200;
+  background-color: rgba(36, 38, 40, 0.6);
+}
+.hnz-slide .hnz-avatar {
+  width: 60px;
+  height: 60px;
+  margin: 60px auto 0;
+  position: relative;
+}
+.hnz-slide .hnz-avatar .hnz-mask {
+  width: 100%;
+  height: 100%;
+  background: url("../images/hnz/hnz-photo.png") no-repeat 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.hnz-slide .hnz-avatar img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 2px;
+  z-index: 0;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: 2px solid #f9cd1e;
+}
+.hnz-slide .hnz-stars {
+  margin: 10px auto;
+  width: 54px;
+  height: 24px;
+  background: url('../images/hnz/hnz-line2.png') no-repeat center bottom;
+}
+.hnz-slide .hnz-stars div {
+  width: 100%;
+  height: 20px;
+}
+.hnz-slide .hnz-stars .star1 {
+  background: url('../images/small_img.png') no-repeat 0 -475px;
+}
+.hnz-slide .hnz-stars .star2 {
+  background: url('../images/small_img.png') no-repeat 0 -504px;
+}
+.hnz-slide .hnz-stars .star3 {
+  background: url('../images/small_img.png') no-repeat 0 -535px;
+}
+.hnz-slide .hnz-slide-list {
+  width: 43px;
+  margin: 45px auto 0;
+  height: auto;
+}
+.hnz-slide .hnz-slide-list a {
+  display: block;
+  width: 43px;
+  height: 43px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.hnz-slide .hnz-slide-list a:hover span {
+  display: block;
+}
+.hnz-slide .hnz-slide-list a span {
+  display: none;
+  position: absolute;
+  width: 94px;
+  height: 50px;
+  right: 100%;
+  background: url('../images/small_img.png') no-repeat 0 -650px;
+}
+.hnz-slide .hnz-slide-list .hnz-home {
+  background: url('../images/small_img.png') no-repeat -208px -207px;
+}
+.hnz-slide .hnz-slide-list .hnz-email {
+  background: url('../images/small_img.png') no-repeat -208px -374px;
+}
+.hnz-slide .hnz-slide-list .hnz-message {
+  background: url('../images/small_img.png') no-repeat -208px -262px;
+}
+.hnz-slide .hnz-slide-list .hnz-chengjiu {
+  background: url('../images/small_img.png') no-repeat -208px -318px;
+}
+.hnz-slide .hnz-slide-list .hnz-shoucang {
+  background: url('../images/small_img.png') no-repeat -208px -155px;
+}
+.hnz-slide .hnz-back {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  bottom: 80px;
+  background: url('../images/small_img.png') no-repeat -208px -429px;
+  margin: 0 11px;
+}
+.hnz-slide .hnz-login-out {
+  position: absolute;
+  margin: 0 14.5px;
+  width: 37px;
+  height: 43px;
+  bottom: 20px;
+}
+.hnz-works {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.hnz-works .hnz-works-head {
+  height: 43px;
+}
+.hnz-works .hnz-works-head h3 {
+  height: 100%;
+  width: 286px;
+  background: url('../images/hnz/hnz-zp.png') no-repeat 0 center;
+  float: left;
+}
+.hnz-works .hnz-works-head a {
+  float: right;
+  height: 100%;
+  width: 145px;
+  background: url('../images/small_img.png') no-repeat 0 -146px;
+}
+.hnz-works .hnz-works-list {
+  width: 100%;
+  height: 834px;
+}
+.hnz-article {
+  width: 1200px;
+  height: auto;
+  margin: 40px auto 0;
+  border: 1px solid red;
+}
+.hnz-article .hnz-article-head {
+  height: 43px;
+}
+.hnz-article .hnz-article-head h3 {
+  height: 100%;
+  width: 286px;
+  background: url('../images/hnz/hnz-article.png') no-repeat 0 center;
+  float: left;
+}
+.hnz-article .hnz-article-head a {
+  float: right;
+  height: 100%;
+  width: 145px;
+  background: url('../images/small_img.png') no-repeat 0 -146px;
+}
+.hnz-article .hnz-article-list {
+  margin-top: 40px;
+  width: 100%;
+  height: 580px;
 }

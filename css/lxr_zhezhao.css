@@ -1,0 +1,64 @@
+.lxr_zhezhao{
+	width: 100%;
+	min-width: 1200px;
+	height: 834px;
+	background: url(../images/lxr/lxr_zhezhao.png) no-repeat center;
+	position: absolute;
+	top: 0;left: 0;
+	z-index: 999999;
+	display: none;
+}
+
+.lxr_zhezhao_min{
+	width: 1200px;
+	height: 743px;
+	padding-top: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.lxr_zhezhao_min span{
+	font-size: 44px;
+	color:#fff;
+}
+
+.lxr_zhezhao_min input{
+	margin-top: 50px;
+	font-size: 100px;
+	background: url(../images/lxr/lxr_zhezhao.png) no-repeat center;
+	border: 0;
+	color: #fff;
+}
+
+#lxr_zhezhao_close{
+	position: absolute;
+	top: 70px;
+	right: 0;
+}
+
+.lxr_zhezhao_tab{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 90px;
+}
+
+.lxr_zhezhao_tab div{
+	height: 47px;
+	float: left;
+	margin-right:70px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 44px;
+}
+
+.lxr_zhezhao_tab .lxr_tab1{
+	width: 118px;
+	color: #5F520F;
+	background: url(../images/lxr/lxr_tab.png) no-repeat 0 0;
+}
+
+.lxr_zhezhao_tab .lxr_tab2{
+	width: 140px;
+	color: #F0C310;
+	background: url(../images/lxr/lxr_tab.png) no-repeat 0 -48px;
+}

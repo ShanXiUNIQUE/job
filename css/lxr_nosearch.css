@@ -1,9 +1,10 @@
-
+body{
+	background:#fff;
+}
 .lxr_no_content{
 	width: 100%;
 	min-width: 1200px;
 	height: auto;
-	margin-top: 105px;
 	padding-bottom: 530px;
 }
 

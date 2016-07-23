@@ -71,18 +71,14 @@ div:after {
   height: 48px;
 }
 .kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_wtOne,
-.kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_zplb,
-.kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_tsyq,
-.kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_zrjg {
+.kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_zplb {
   float: left;
   margin-right: 28px;
   font-size: 17px;
   color: #fff;
   height: 48px;
 }
-.kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_zplb,
-.kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_tsyq,
-.kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_zrjg {
+.kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_zplb {
   position: relative;
 }
 .kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_wtOne {
@@ -135,6 +131,10 @@ div:after {
 .kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_smallbox div .kf_num {
   font-size: 12px;
   color: #BFB9BA;
+    float: right;
+  display: inline-block;
+  height: 19px;
+  padding-top: 5px;
 }
 .kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_zplb {
   height: 43px;

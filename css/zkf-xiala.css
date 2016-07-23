@@ -1,0 +1,93 @@
+.kf_workTop>.kf_zplb{
+  height: 43px;
+  background-image: url(../images/small_img.png);
+  background-position: 0 -48px;
+  text-align: left;
+  line-height: 43px;
+  width: 117px;
+  padding-left: 28px;
+}
+.kf_workTop .kf_zplb .tb {
+  width: 22px;
+  height: 22px;
+  background: url(../images/zkf/kf_a3.png) center no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 14px;
+}
+.kf_workTop .kf_wtOne,
+ .kf_workTop .kf_zplb {
+  float: left;
+  margin-right: 28px;
+  font-size: 17px;
+  color: #fff;
+  height: 48px;
+}
+.kf_workTop .kf_zplb {
+  position: relative;
+}
+ .kf_workTop .kf_wtOne {
+  height: 40px;
+  line-height: 40px;
+  width: 200px;
+  /*background: url(../images/zkf/kf_16.png) no-repeat center;*/
+}
+.kf_wtOne  img{
+   width: 200px;
+}
+ .kf_workTop .kf_smallbox div:hover .kf_quan {
+  background: #30A8F4;
+}
+ .kf_workTop .boxOpacity {
+  width: 371px;
+  height: 0px;
+  position: absolute;
+  z-index: 999;
+}
+ .kf_workTop .kf_smallbox {
+  z-index: 999;
+  height: 0px;
+  overflow: hidden;
+  position: absolute;
+  left: 59px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 259px;
+  background: url(../images/wlh/wlh_zp_caidan.png) no-repeat center top;
+  background-size: 100% ;
+}
+ .kf_workTop .kf_smallbox div {
+  width: 210px;
+  height: 40px;
+  text-align: left;
+  font-size: 30px;
+  border-bottom: 1px dashed #C2C2C2;
+}
+ .kf_workTop .kf_smallbox div .kf_fenlei {
+  font-size: 15px;
+  color: #646364;
+  text-decoration: none;
+  width: 279px;
+
+}
+.kf_workTop .kf_smallbox div .kf_quan {
+  width: 19px;
+  height: 19px;
+  background: #EBC243;
+  display: inline-block;
+  border-radius: 50%;
+
+}
+ .kf_workTop .kf_smallbox div .kf_num {
+  font-size: 12px;
+  color: #BFB9BA;
+  float: right;
+  display: inline-block;
+  height: 19px;
+  padding-top: 5px;
+}
+ .kf_workTop {
+  height: 48px;
+}

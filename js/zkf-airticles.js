@@ -52,16 +52,24 @@ $(function(){
 		}
     /*
 		进度条 
-		num 企业关注的数量
+		num 
 		max 企业关注最大值
 		bar 控制进度条进度的标签
-		
+		arrNum 保存(企业关注的数量)进度条的值
     */    
-    function proBar(num,max,bar){
-    	 var w=num/max*100;
-    	 $(bar).eq(0).css({
-    	 	width:w
-    	 })
+    var arrNum=[10,100,60];
+    var max=120;
+    var bar=$('.progressBar div')
+    proBar(arrNum,max,bar);
+   
+    function proBar(arrNum,max,bar){
+    	for(var i=0;i<3;i++)
+    	{
+	    	 var w=arrNum[i]/max*100;
+	    	 $(bar).eq(i).css({
+	    	 	width:w
+	    	 }) 
+    	}
     }
    
 

@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/wlh-zplist.css">
 	<link rel="stylesheet" href="css/zkf-airticles.css">	
 	<script src="js/jquery.min.js"></script>
+	<script src="js/wlh-color.js"></script>
 </head>
 <body>
 <!--main start-->
@@ -55,85 +56,8 @@
 	<div class="wlh-zp-title">
 		<div class="wlh-zp-titleimg"><img src="images/wlh/wlh_zp.png" alt=""></div>
 		<!-- 作品分类 start -->
-		<div class='kf_zplb'>
-			作品类别
-			<!-- 内部的下拉按钮 -->
-			<div class='tb'></div>
-			<!-- 下拉菜单 -->
-			<div class='boxOpacity'>
-				<div class="kf_smallbox">
-					<div>
-						<span class='kf_quan' ></span>
-						<a href="##" class='kf_fenlei'>作品分类1</a>
-						<span class='kf_num'>共18291条</span>
-					</div>
-					<div>
-						<span class='kf_quan'></span>
-						<a href="## "  class='kf_fenlei'>作品分类2</a>
-						<span class='kf_num'>共18291条</span>
-					</div>
-					<div>
-						<span class='kf_quan'></span>
-						<a href="##"  class='kf_fenlei'>作品分类3</a>
-						<span class='kf_num'>共18291条</span>
-					</div>
-		
-				</div>
-			</div>
-		</div>
 		<!-- 作品分类 end -->
 
-		<div class='kf_zplb'>
-			特殊邀请
-			<!-- 内部下拉按钮 -->
-			<div class='tb'></div>
-			<!-- 下拉菜单 -->
-			<div class='boxOpacity'>
-				<div class="kf_smallbox">
-					<div>
-						<span class='kf_quan' ></span>
-						<a href="##" class='kf_fenlei'>作品分类1</a>
-						<span class='kf_num'>共18291条</span>
-					</div>
-					<div>
-						<span class='kf_quan'></span>
-						<a href="## "  class='kf_fenlei'>作品分类2</a>
-						<span class='kf_num'>共18291条</span>
-					</div>
-					<div>
-						<span class='kf_quan'></span>
-						<a href="##"  class='kf_fenlei'>作品分类3</a>
-						<span class='kf_num'>共18291条</span>
-					</div>
-				</div>		
-			</div>
-		</div>
-		<div class='kf_zplb'>
-			自然结果
-			<!-- 内部下拉按钮 -->
-			<div class='tb'></div>
-			<!-- 下拉菜单 -->
-			<div class='boxOpacity'>
-				<div class="kf_smallbox">
-					<div>
-						<span class='kf_quan' ></span>
-						<a href="##" class='kf_fenlei'>作品分类1</a>
-						<span class='kf_num'>共18291条</span>
-					</div>
-					<div>
-						<span class='kf_quan'></span>
-						<a href="## "  class='kf_fenlei'>作品分类2</a>
-						<span class='kf_num'>共18291条</span>
-					</div>
-					<div>
-						<span class='kf_quan'></span>
-						<a href="##"  class='kf_fenlei'>作品分类3</a>
-						<span class='kf_num'>共18291条</span>
-					</div>
-		
-				</div>
-		    </div>
-		</div>
 	</div> 
 	<!--作品标题 end-->
 
@@ -397,16 +321,7 @@
 
 </body>
 <script>
-	function colorClass(ele,classname){
-		var wlh_num1=0;
-        $(ele).each(function(i,obj){
-			if(wlh_num1%3==0){
-				wlh_num1=0;
-			}
-	        $(obj).addClass(classname+(wlh_num1+1));
-	        wlh_num1++;
-		})
-	}
+	
 	colorClass(".wlh-zp-jianjie>.wlh-key>.wlh-key-radius","wlh-key");
 	colorClass(".wlh-zp-title>.wlh-zp-titleword","wlh-title");
 	colorClass(".wlh-pos-white>ul>.wlh-pos-w","wlh-pos-white");

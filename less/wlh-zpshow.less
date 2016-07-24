@@ -22,8 +22,8 @@
       z-index: 10;
       overflow: hidden;
       .wlh-zpshow-header1{
-        width: 1067px-72px;
-        height:195px-31px;
+        width: (1067-72)*1px;
+        height:(195-31)*1px;
         position: absolute;
         left:69px;
         top:0;
@@ -68,8 +68,8 @@
         }
       }
       .wlh-zpshow-header2{
-        width:986px-80px;
-        height:149px-38px;
+        width:(986-80)*1px;
+        height:(149-38)*1px;
         background: #fff;
         border-radius: 3px;
         behavior: url(border-radius.htc);
@@ -93,7 +93,7 @@
           font-size: 12px;
           color: #606060;
           .wlh-zpshow-header-box1{
-            width: 45px-28px;
+            width: (45-28)*1px;
             height:24px;
             background: url("@{url}/wlh_zp_bg.png") no-repeat 0 -154px;
             padding-left:28px;
@@ -103,7 +103,7 @@
             line-height: 24px;
           }
           .wlh-zpshow-header-box2{
-            width: 45px-28px;
+            width: (45-28)*1px;
             height:24px;
             background: url("@{url}/wlh_zp_bg.png") no-repeat 0 -120px;
             padding-left:28px;
@@ -113,7 +113,7 @@
             line-height: 24px;
           }
           .wlh-zpshow-header-box3{
-            width: 45px-28px;
+            width: (45-28)*1px;
             height:24px;
             background: url("@{url}/wlh_zp_bg.png") no-repeat 0 -86px;
             padding-left:28px;
@@ -142,8 +142,8 @@
         border-bottom: 1px solid #dbdbdb;
         position: relative;
         .wlh-zpshow-jianjie{
-          width:1125px-100px;
-          height:276px-60px;
+          width:(1125-100)*1px;
+          height:(276-60)*1px;
           border-top:1px solid #dbdbdb;
           position: absolute;
           left:42px;
@@ -207,8 +207,8 @@
             overflow: hidden;
           }
           .wlh-zpshow-tjxj{
-            width:380px-26px;
-            height:118px-36px;
+            width:(380-26)*1px;
+            height:(118-36)*1px;
             padding:18px 13px 18px 13px;
             .wlh-zpshow-tjxj-left{
               float:left;
@@ -265,6 +265,7 @@
               behavior: url(border-radius.htc);
               overflow: hidden;
               position: relative;
+              cursor:pointer;
               img{
                 width: 71px;
                 height:71px;
@@ -272,12 +273,12 @@
               .wlh-tjxj-zhezhao{
                 width: 71px;
                 height: 71px;
-                background:;
                 position: absolute;
                 left: 0;
                 top:0;
                 z-index: 1;
-                background: url("@{url}/wlh_zpjx-bg.png")
+                background: url("@{url}/wlh_zpjx-bg.png");
+                display:none;
               }
               .wlh-tjxi-sj{
                 position: absolute;
@@ -295,7 +296,7 @@
                 background: url("@{url}/wlh_zpshow_jx.png") no-repeat;
                 position: absolute;
                 left: 3px;
-                bottom:0;
+                bottom:-25px;
                 z-index: 5;
               }
             }
@@ -308,7 +309,7 @@
       height:auto;
       margin-top: 58px;
       .wlh-zpshow-plcon{
-        width:1190px-36px;
+        width:(1190-36)*1px;
         height:auto;
         background: #fff;
         margin:0 auto;
@@ -331,7 +332,7 @@
             }
           }
           .wlh-zpshow-pl-publish-con{
-            height: 267px-52px+19px;
+            height: (267-52+19)*1px;
             position: relative;
             padding: 52px 0px 0 29px;
             .wlh-zpshow-pl-publish-photo{
@@ -342,8 +343,8 @@
               float: right;
               border-radius: 3px;
               behavior: url(border-radius.htc);
-              width: 1010px-50px;
-              height: 184px-86px;
+              width: (1010-50)*1px;
+              height: (184-86)*1px;
               resize: none;
               border: 1px solid #dbdbdb;
               padding: 43px 25px;
@@ -377,7 +378,7 @@
               bottom:0
             }
             .wlh_pl_add{
-              width: 105px-43px;
+              width: (105-43)*1px;
               height:32px;
               position: absolute;
               left:136px;

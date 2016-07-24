@@ -265,6 +265,7 @@
   behavior: url(border-radius.htc);
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
 .wlh-zpshowbox .wlh-zpshow .wlh-zpshow-tuijian .wlh-zpshow-tjconbox .wlh-zpshow-tjcon .wlh-zpshow-tjxj .wlh-zpshow-tjxj-right img {
   width: 71px;
@@ -273,12 +274,12 @@
 .wlh-zpshowbox .wlh-zpshow .wlh-zpshow-tuijian .wlh-zpshow-tjconbox .wlh-zpshow-tjcon .wlh-zpshow-tjxj .wlh-zpshow-tjxj-right .wlh-tjxj-zhezhao {
   width: 71px;
   height: 71px;
-  background: ;
   position: absolute;
   left: 0;
   top: 0;
   z-index: 1;
   background: url("../images/wlh/wlh_zpjx-bg.png");
+  display: none;
 }
 .wlh-zpshowbox .wlh-zpshow .wlh-zpshow-tuijian .wlh-zpshow-tjconbox .wlh-zpshow-tjcon .wlh-zpshow-tjxj .wlh-zpshow-tjxj-right .wlh-tjxi-sj {
   position: absolute;
@@ -296,7 +297,7 @@
   background: url("../images/wlh/wlh_zpshow_jx.png") no-repeat;
   position: absolute;
   left: 3px;
-  bottom: 0;
+  bottom: -25px;
   z-index: 5;
 }
 .wlh-zpshowbox .wlh-zpshow .wlh-zpshow-plbox {

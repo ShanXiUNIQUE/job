@@ -2,11 +2,17 @@
 @il:'../images/'; //图片地址
 @ilh:'../images/hnz/'; //图片地址 hnz文件夹
 @i:'../images/small_img.png';
+
+//图片精灵混合
+.bg(@x,@y){
+	background: url('@{i}') no-repeat @x @y;
+}
+//首页 showmore混合
 .more(){
 	float: right;
 	height: 100%;
 	width: 145px;
-	background: url('@{i}') no-repeat 0 -146px;
+	.bg(0,-146px)
 }
 //-------------------------------------
 body{
@@ -90,7 +96,7 @@ body{
 //轮播
 .hnz-banner-box{
 	width: 100%;
-	height: 1000px;
+	height: 924px;
 	position: relative;
 	overflow-x: hidden;
 	.hnz-banner-bg{
@@ -106,7 +112,6 @@ body{
 		top:180px;
 		left:50%;
 		margin-left:-1440px /2;
-		background: yellow;
 		ul{
 			width: 100%;
 			height: 100%;
@@ -115,7 +120,13 @@ body{
 				width: 100%;
 				height: 100%;
 				position: absolute;
-				.title{
+				.hnz-big-img{
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					overflow: hidden;
+				}
+				.hnz-title{
 					width: 590px;
 					height: 256px;
 					background: #10c8f0;
@@ -201,6 +212,108 @@ body{
 		}
 	}
 }
+// 信息
+.hnz-info-box{
+	width: 1236px;
+	height: 257px;
+	margin:-166px auto 60px;
+	position: relative;
+	z-index: 1000;
+	.hnz-info-bg-l{
+		float: left;
+		width: 33px;
+		height: 100%;
+		background: url('@{ilh}hnz-tools-bg-l.png') no-repeat 2px 0;
+	}
+	.hnz-info-bg-c{
+		float: left;
+		width: 1170px;
+		height: 100%;
+		background: url('@{ilh}hnz-tools-bg-c.png') repeat-x 0 0;
+	}
+	.hnz-info-bg-r{
+		float: left;
+		width: 33px;
+		height: 100%;
+		background: url('@{ilh}hnz-tools-bg-r.png')  no-repeat 0 0;
+	}
+	.hnz-info-content{
+		width:1110px;
+		height: 150px;
+		position: absolute;
+		top:60px;
+		left:0;
+		right: 0;
+		margin:0 auto;
+		.hnz-info-top{
+			width: 100%;
+			height: 85px;
+			border-bottom: 1px dashed #ccc;
+			div{
+				width:33.33333%;
+				float: left;
+				.hnz-icon{
+					width: 56px;
+					height: 50px;
+				}
+				.hnz-number{
+					width: 100px;
+					height: 50px;
+					font-size:52px;
+					font-style: italic;
+					line-height: 52px;
+					text-align: center;
+					font-weight: bold;
+				}
+			}
+			.hnz-works-1{
+				color:#40d1f1;
+				.hnz-icon{
+					background: url("@{i}") no-repeat -643px -541px;
+				}
+			}
+			.hnz-works-2{
+				color:#f0c310;
+				.hnz-icon{
+					background: url("@{i}") no-repeat -643px -595px;
+				}
+			}
+			.hnz-works-3{
+				color:#32d486;
+				.hnz-icon{
+					background: url("@{i}") no-repeat -643px -652px;
+				}
+			}
+		}
+		.hnz-info-bottom{
+			width: 100%;
+			height: 64px;
+			.hnz-icon-clock{
+				width: 64px;
+				height: 60px;
+				float: left;
+				.bg(-652px,-480px);
+			}
+			&-content{
+				width: 896px;
+				float: left;
+				height: 64px;
+				line-height: 64px;
+				font-size: 20px;
+				color:#747474;
+			}
+			&-time{
+				float: right;
+				width:130px;
+				padding-left:20px;
+				line-height: 68px;
+				color:#fff;
+				height: 64px;
+				.bg(-583px,-423px);
+			}
+		}
+	}
+}
 //侧边栏
 .hnz-slide{
 	width: 66px;
@@ -279,9 +392,6 @@ body{
 		}
 		.hnz-home{
 			background: url(@i) no-repeat -208px -207px;
-			span{
-
-			}
 		}
 		.hnz-email{
 			background: url(@i) no-repeat -208px -374px;
@@ -310,6 +420,7 @@ body{
 		width: 37px;
 		height: 43px;
 		bottom: 20px;
+		background: url("@{ilh}hnz-all-home.png") no-repeat 0px -344px;
 	}
 }
 
@@ -318,7 +429,6 @@ body{
 	width: @w;
 	height: auto;
 	margin:0 auto;
-	border:1px solid red;
 	.hnz-works-head{
 		height: 43px;
 		h3{
@@ -334,6 +444,119 @@ body{
 	.hnz-works-list{
 		width: 100%;
 		height: 834px;
+		&-inner{
+			height: 100%;
+			margin:0 -15px;
+		}
+		.wlh-zpshow-tjcon{
+          width:380px;
+          height:385px;
+          border-radius: 6px;
+          behavior: url(border-radius.htc);
+          background: #fff;
+          float:left;
+          margin:16px 15px 0 15px;
+          .wlh-zpshow-tjimg{
+            width:100%;
+            height:267px;
+            overflow: hidden;
+          }
+          .wlh-zpshow-tjxj{
+            width:(380-26)*1px;
+            height:(118-36)*1px;
+            padding:18px 13px 18px 13px;
+            .wlh-zpshow-tjxj-left{
+              float:left;
+              width:266px;
+              overflow: hidden;
+              h4{
+                color:#403e3e;
+                font-size:16px;
+                background:url("../images/wlh/wlh_title_line.jpg") no-repeat 3px 22px;
+                height:23px;
+              }
+              p{
+                height:20px;
+                overflow: hidden;
+                color: #606060;
+                font-size: 14px;
+                line-height: 20px;
+              }
+              .wlh-see{
+                float:left;
+                margin-right:5px;
+                line-height:20px;
+                margin-top: 10px;
+                .wlh-see-img{
+                width:16px;
+                height:16px;
+                background:url("../images/small_img.png") no-repeat -684px -46px;
+                float:left;
+                line-height:16px;
+                }
+                span{
+                color:#ababab;
+                font-size:12px;
+                float:left;
+                margin:0 5px;
+                line-height: 16px;
+                }
+              }
+              .wlh-xin{
+                float:right;
+                width: 102px;
+                height:16px;
+                margin-top: 10px;
+                background: url("../images/small_img.png") no-repeat 0 -439px;
+              }
+            }
+            .wlh-zpshow-tjxj-right{
+              float:right;
+              width:71px;
+              height:71px;
+              background:#dddddd;
+              border:3px solid #dddddd;
+              border-radius: 50%;
+              behavior: url(border-radius.htc);
+              overflow: hidden;
+              position: relative;
+              cursor:pointer;
+              img{
+                width: 71px;
+                height:71px;
+              }
+              .wlh-tjxj-zhezhao{
+                width: 71px;
+                height: 71px;
+                position: absolute;
+                left: 0;
+                top:0;
+                z-index: 1;
+                background: url("../images/wlh/wlh_zpjx-bg.png");
+                display:none;
+              }
+              .wlh-tjxi-sj{
+                position: absolute;
+                left:33px;
+                top:24px;
+                z-index: 2;
+                img{
+                  width: 12px;
+                  height: 17px;
+                }
+              }
+              .wlh-tjxj-video{
+                width: 65px;
+                height:25px;
+                background: url("../images/wlh/wlh_zpshow_jx.png") no-repeat;
+                position: absolute;
+                left: 3px;
+                bottom:-25px;
+                z-index: 5;
+              }
+            }
+          }
+        }
 	}
 }
 
@@ -343,7 +566,6 @@ body{
 	width: @w;
 	height: auto;
 	margin:40px auto 0;
-	border:1px solid red;
 	.hnz-article-head{
 		height: 43px;
 		h3{
@@ -360,5 +582,201 @@ body{
 		margin-top:40px;
 		width: 100%;
 		height: 580px;
+		.hnz-article-left{
+			width: 884px;
+			height: 100%;
+			float: left;
+			.hnz-one{
+				background: #fff;
+				height: 280px;
+				margin-bottom: 19px;
+				.hnz-img{
+					width: 300px;
+					height: 280px;
+					overflow: hidden;
+					float: left;
+				}
+				.hnz-content{
+					float: left;
+					margin:45px 0 0 30px;
+					width: 512px;
+					height: 210px;
+					&-top{
+						height: 122px;
+						border-bottom: 1px dashed #ccc;
+						h4{
+							font-size: 20px;
+							a{color:#33aee3;}
+						}
+						p{
+							font-size: 18px;
+							color:#434344;
+							line-height: 1.3;
+						}
+					}
+					&-bottom{
+						padding-top: 20px;
+						height: 68px;
+						.hnz-photo{
+							width: 58px;
+							height: 58px;
+							border-radius: 50%;
+							border:3px solid #ccc;
+							overflow: hidden;
+
+							float: left;
+							img{
+								width: 100%;
+							}
+						}
+						.hnz-avatar{
+							padding:10px 0 0 10px;
+							float: left;
+							width: 120px;
+							height: 64px;
+							&-name{
+								height: 24px;
+								font-size: 16px;
+								color:#545454;
+							}
+							.hnz-ck{
+								float: left;
+								width: 74px;
+								height: 20px;
+								border-radius:10px;
+								background:#f2c744;
+								color:#fff;
+								font-size: 12px;
+								text-align: center;
+								line-height: 20px;
+							}
+							.hnz-zw{
+								margin-left: 5px;
+								float: left;
+								width: 20px;
+								height: 20px;
+								border-radius: 50%;
+								background: #39c380;
+								font-size: 12px;
+								line-height: 20px;
+								text-align: center;
+								color:#fff;
+							}
+						}
+						&>img{
+							margin-top: 10px;
+							float: left;
+						}
+						.hnz-fav{
+							padding-top:10px;
+							width: 110px;
+							height: 54px;
+							float: left;
+							text-align: center;
+							font-size: 14px;
+							color:#545454;
+							&-icon{
+								width: 24px;
+								height: 24px;
+								margin:0 auto;
+								.bg(0,-575px)
+							}
+						}
+					}
+				}
+			}
+		}
+		.hnz-article-right{
+			width: 300px;
+			height: 100%;
+			float: right;
+			background: #fff;
+			.hnz-img{
+				width: 300px;
+				height: 280px;
+				overflow: hidden;
+			}
+			.hnz-content-top{
+				height: 110px;
+				margin:30px 0 0 16px;
+				h4{
+					font-size: 20px;
+					a{color:#33aee3;}
+				}
+				p{
+					font-size: 18px;
+					color:#434344;
+					line-height: 1.3;
+				}
+			}
+			.hnz-fav{
+				&-one{
+					width: 33.33%;
+					height: 40px;
+					float: left;
+					text-align: center;
+					font-size: 14px;
+					color:#545454;
+					.hnz-fav-icon{
+						width: 24px;
+						height: 24px;
+						float: left;
+						.bg(0,-575px)
+					}
+				}
+				margin:16px 0 0 16px;
+				height: 40px;
+				text-align: center;
+				font-size: 14px;
+				color:#545454;
+				border-bottom:1px dashed #ccc;
+			}
+			.hnz-photo{
+				width: 58px;
+				height: 58px;
+				border-radius: 50%;
+				border:3px solid #ccc;
+				overflow: hidden;
+				float: left;
+				margin:20px 20px 0;
+				img{
+					width: 100%;
+				}
+			}
+			.hnz-avatar{
+				margin-top:20px;
+				padding:10px 16px 0;
+				// width: 120px;
+				height: 64px;
+				&-name{
+					height: 24px;
+					font-size: 16px;
+					color:#545454;
+				}
+				.hnz-ck{
+					float: left;
+					width: 74px;
+					height: 20px;
+					border-radius:10px;
+					background:#f2c744;
+					color:#fff;
+					font-size: 12px;
+					text-align: center;
+					line-height: 20px;
+				}
+				.hnz-zw{
+					margin-left: 5px;
+					float: left;
+					width: 20px;
+					height: 20px;
+					border-radius: 50%;
+					background: #39c380;
+					font-size: 12px;
+					line-height: 20px;
+					text-align: center;
+					color:#fff;
+				}
+			}
+		}
 	}
 }

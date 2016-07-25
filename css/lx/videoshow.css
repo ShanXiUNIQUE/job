@@ -141,6 +141,7 @@ body{
 .lx_softBox{
     width:1200px;
     height:auto;
+    margin:0 auto;
 }
 .lx_softCon{
     width:860px;

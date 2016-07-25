@@ -102,18 +102,18 @@ div:after {
   overflow: hidden;
   position: absolute;
   left: 59px;
-  padding-left: 20px;
   width: 259px;
   background: url(../images/wlh/wlh_zp_caidan.png);
+  background-size: 100% 100% ;
 }
 .kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_smallbox div {
-  width: 200px;
+  width: 210px;
   height: 40px;
   text-align: left;
   line-height: 40px;
   font-size: 30px;
   border-bottom: 1px dashed #C2C2C2;
-  padding-left: 20px;
+  margin-left:20px;
 }
 .kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_smallbox div .kf_fenlei {
   font-size: 15px;
@@ -131,7 +131,7 @@ div:after {
 .kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_smallbox div .kf_num {
   font-size: 12px;
   color: #BFB9BA;
-    float: right;
+  float: right;
   display: inline-block;
   height: 19px;
   padding-top: 5px;

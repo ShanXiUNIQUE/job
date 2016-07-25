@@ -52,17 +52,17 @@
   overflow: hidden;
   position: absolute;
   left: 59px;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 259px;
+  width: 279px;
   background: url(../images/wlh/wlh_zp_caidan.png) no-repeat center top;
   background-size: 100% ;
 }
  .kf_workTop .kf_smallbox div {
-  width: 210px;
+  width: 239px;
   height: 40px;
   text-align: left;
   font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   border-bottom: 1px dashed #C2C2C2;
 }
  .kf_workTop .kf_smallbox div .kf_fenlei {
@@ -70,7 +70,6 @@
   color: #646364;
   text-decoration: none;
   width: 279px;
-
 }
 .kf_workTop .kf_smallbox div .kf_quan {
   width: 19px;
@@ -90,4 +89,49 @@
 }
  .kf_workTop {
   height: 48px;
+}
+
+/*分页*/
+.kf_fenye {
+  width: 869px;
+  height: 109px;
+  padding-top: 87px;
+  font-size: 12px;
+  margin:0 auto;
+}
+ .kf_fenye a {
+  color: #8C8C8C;
+  display: block;
+  float: left;
+  margin-left: 8px;
+  text-decoration: none;
+  text-align: center;
+  width: 29px;
+  height: 29px;
+  line-height: 29px;
+}
+.kf_fenye .kf_pageNum {
+  background: url(../images/small_img.png);
+  background-position: -208px -34px;
+}
+.kf_fenye .kf_pageName {
+  width: 77px;
+  background: url(../images/small_img.png);
+  background-position: -208px 0;
+}
+.kf_fenye .kf_pageActive {
+  width: 35px;
+  height: 35px;
+  background: url(../images/small_img.png);
+  color: #fff;
+  line-height: 35px;
+  margin-top: -3px;
+  background-position: -208px -69px;
+}
+ .kf_fenye .kf_pageGo {
+  width: 35px;
+  height: 35px;
+  background: url(../images/small_img.png);
+  line-height: 35px;
+  background-position: -208px -112px;
 }

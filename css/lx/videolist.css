@@ -1,0 +1,293 @@
+@import "../reset.css";
+
+/*personal training*/
+.lx_preson{
+    position: relative;
+    width:100%;
+    height: 580px;
+    background: #fff url(../../images/lx/lx_perBg.png) no-repeat top center;
+}
+.lx_personCon{
+    width:1200px;
+    height:500px;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    overflow: hidden;
+}
+.lx_personTit{
+    height:90px;
+    background: url("../../images/lx/lx_personTit.png") no-repeat top left;
+}
+.lx_bannerBox{
+    width:100%;
+    height:300px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+.lx_bannerBox .lx_bannerList{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.lx_person{
+    width:200px;
+    height:100%;
+    float: left;
+    margin-right:50px;
+}
+.lx_personF{
+    margin-right: 0;
+}
+.lx_personUncheck{
+    width:200px;
+    height:201px;
+    background: url("../../images/lx/lx_personUncheck.png") no-repeat center;
+    position: relative;
+}
+.lx_personCheck{
+    width:200px;
+    height:201px;
+    background: url("../../images/lx/lx_personCheck.png") no-repeat center;
+    position: relative;
+}
+.lx_personUncheck img,.lx_personCheck img{
+    width:182px;
+    height:182px;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.lx_person .lx_name{
+    position: absolute;
+    left:50%;
+    bottom:20px;
+    width:120px;
+    height:50px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    text-align: center;
+    line-height:50px;
+    background: url("../../images/lx/lx_name.png") no-repeat ;
+}
+.lx_comment{
+    width: 150px;
+    height:16px;
+    padding:10px 0;
+    color: #8f8f8f;
+    font-size: 14px;
+    margin:0 auto;
+    font-family: "微软雅黑";
+}
+.lx_comment i{
+    display: inline-block;
+    width:16px;
+    height:16px;
+}
+.lx_comment .lx_skimNum{
+    background: url("../../images/lx/lx_skimNum.png");
+}
+.lx_comment .lx_commentNum{
+    background: url("../../images/lx/lx_commentNum.png");
+}
+.lx_comment span{
+    padding:0 8px 0 5px;
+}
+.lx_rank{
+    width:150px;
+    height: 20px;
+    margin:0 auto;
+    background: url("../../images/lx/lx_rank.png") no-repeat center;
+}
+
+.lx_btn{
+    width:140px;
+    height:15px;
+    position: absolute;
+    left:50%;
+    margin-left:-70px;
+    bottom:20px;
+}
+.lx_btn li{
+    width:13px;
+    height:13px;
+    border-radius: 6px;
+    behavior: url(../border-radius.htc);
+    background: #f2c245;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.lx_btn .lx_btnHot{
+    background: #f4f4f4;
+    width:35px;
+}
+/* personal training */
+
+.lx_recomWork{
+    width:1200px;
+    height:auto;
+    padding: 30px;
+}
+.lx_recomHead{
+    width:100%;
+    height:80px;
+    background: red;
+}
+.lx_recomList{
+    width:1200px;
+    height:auto;
+}
+.lx_recomList .lx_listItem{
+    float: left;
+    width: 280px;
+    height:305px;
+    margin: 26px 0 ;
+    margin-right: 26px;
+    background: #ffffff;
+    position: relative;
+}
+.lx_recomList .lx_listItemF{
+    margin-right:0;
+}
+.lx_listItem .lx_itemPhoto{
+    width:100%;
+    height:190px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    behavior: url(../border-radius.htc);
+    position: relative;
+}
+.lx_itemPhoto  .lx_photoMask{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: url("../../images/lx/lx_photoMask.png") no-repeat center ;
+    display: none;
+}
+.lx_itemPhoto  .lx_photoMask:after{
+    content: "";
+    display: block;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    behavior: url(../border-radius.htc);
+    background: #eec157;
+    position: absolute;
+    top:77px;
+    left:122px;
+
+}
+
+.lx_itemPhoto img{
+    width:100%;
+    height:100%;
+}
+.lx_listItem .lx_itemIntro{
+    width: 280px;
+    height:60px;
+    margin-top: 15px;
+    position: relative;
+    background: #ffffff;
+    z-index: 10;
+}
+
+.lx_itemIntro .lx_introLeft{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    behavior: url(../border-radius.htc);
+    float: left;
+    background:#ffffff;
+    overflow: hidden;
+}
+.lx_itemIntro .lx_introLeft img{
+    width:100%;
+    height:100%;
+}
+.lx_itemIntro .lx_introRight{
+    float: left;
+    width:200px;
+    height:50px;
+    padding-left:20px;
+    color: #403e3e;
+    font-size:14px;
+    padding-top: 6px;
+
+}
+.lx_introRight .lx_rightImg{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    background: url("../../images/lx/lx_rightImg.png") no-repeat center;
+    vertical-align: middle;
+}
+
+.lx_introRight span{
+    padding-right:5px;
+    margin-bottom: 10px;
+    display: inline-block;
+
+}
+.lx_itemInfo{
+    width:100%;
+    height:31px;
+    position: relative;
+    z-index: 20;
+    background: #ffffff;
+}
+.lx_itemInfo span{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 5px 0 20px;
+    color: #8f8f8f;
+    font-size: 14px;
+}
+.lx_itemInfo  .lx_infoSkim{
+    background:url("../../images/lx/lx_skimNum.png") no-repeat left bottom;
+}
+.lx_itemInfo  .lx_infoRecom{
+    background:url("../../images/lx/lx_commentNum.png") no-repeat left bottom;
+}
+.lx_itemInfo  .lx_infoSkimNum,.lx_itemInfo  .lx_infoRecomNum{
+    padding-left: 0px;
+}
+.lx_itemInfo .lx_infoRecom{
+    margin-left: 35px;
+}
+.lx_listItem .lx_introMask{
+    width:300px;
+    height: 100px;
+    position: absolute;
+    bottom:0;
+    left: -10px;
+    background: #ffffff url(../../images/lx/lx_rightBg.png) no-repeat center bottom;
+}
+.lx_listItem .lx_introMaskhot{
+    width:300px;
+    height: 100px;
+    position: absolute;
+    bottom:0;
+    left: -10px;
+    background: #ffffff url(../../images/lx/lx_rightBgHot.png) no-repeat center bottom;
+}
+
+/* 视屏列表 */
+.lx_recomPage{
+    width:100%;
+    height:100px;
+    margin:0 auto;
+    background:Red;
+}

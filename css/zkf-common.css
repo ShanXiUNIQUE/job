@@ -77,7 +77,7 @@
   background: #EBC243;
   display: inline-block;
   border-radius: 50%;
-
+  behavior: url(border-radius.htc);
 }
  .kf_workTop .kf_smallbox div .kf_num {
   font-size: 12px;

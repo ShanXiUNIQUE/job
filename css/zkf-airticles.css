@@ -127,6 +127,7 @@ div:after {
   background: #EBC243;
   display: inline-block;
   border-radius: 50%;
+  behavior: url(border-radius.htc);
 }
 .kf_allwz .kf_wzCon .kf_allWorks .kf_workTop .kf_smallbox div .kf_num {
   font-size: 12px;
@@ -295,7 +296,7 @@ div:after {
   background: #E8B414;
 }
 .kf_allwz .kf_wzCon .kf_allWorks .kf_workBot .kf_wbItem .kf_wbiCon .kf_rightGzd .kf_gzdBot {
-  width: 252px;
+  /*width: 252px;*/
   height: 38px;
   line-height: 38px;
 }

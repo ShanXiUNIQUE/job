@@ -13,7 +13,7 @@
 	line-height: 44px;
 	cursor: pointer;
 	position: relative;
-	z-index: 2;
+	z-index: 11;
 }
 
 .lxr_search_xiala ul{
@@ -30,6 +30,7 @@
   	behavior: url(border-radius.htc);
   	position: absolute;
   	z-index: 10;
+  	background: #fff;
 }
 
 .lxr_search_xiala ul li{
@@ -305,4 +306,152 @@
   width: 43px;
 }
 
+
+
+/*视频列表*/
+.lx_recomList{
+    width:1200px;
+    height:auto;
+    overflow: hidden;
+}
+.lx_recomList .lxr{
+	width: 100%;
+	overflow: hidden;
+}
+
+.lx_recomList .lx_listItem{
+    float: left;
+    width: 280px;
+    height:305px;
+    margin: 26px 0 ;
+    margin-right: 26px;
+    background: #ffffff;
+    position: relative;
+}
+.lx_recomList .lx_listItemF{
+    margin-right:0;
+}
+.lx_listItem .lx_itemPhoto{
+    width:100%;
+    height:190px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    behavior: url(../border-radius.htc);
+    position: relative;
+}
+.lx_itemPhoto  .lx_photoMask{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: url("../../images/lx/lx_photoMask.png") no-repeat center ;
+    display: none;
+}
+.lx_itemPhoto  .lx_photoMask:after{
+    content: "";
+    display: block;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    behavior: url(../border-radius.htc);
+    background: #eec157;
+    position: absolute;
+    top:77px;
+    left:122px;
+
+}
+
+.lx_itemPhoto img{
+    width:100%;
+    height:100%;
+}
+.lx_listItem .lx_itemIntro{
+    width: 280px;
+    height:60px;
+    margin-top: 15px;
+    position: relative;
+    background: #ffffff;
+    z-index: 10;
+}
+
+.lx_itemIntro .lx_introLeft{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    behavior: url(../border-radius.htc);
+    float: left;
+    background:#ffffff;
+    overflow: hidden;
+}
+.lx_itemIntro .lx_introLeft img{
+    width:100%;
+    height:100%;
+}
+.lx_itemIntro .lx_introRight{
+    float: left;
+    width:200px;
+    height:50px;
+    padding-left:20px;
+    color: #403e3e;
+    font-size:14px;
+    padding-top: 6px;
+
+}
+.lx_introRight .lx_rightImg{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    background: url("../../images/lx/lx_rightImg.png") no-repeat center;
+    vertical-align: middle;
+}
+
+.lx_introRight span{
+    padding-right:5px;
+    margin-bottom: 10px;
+    display: inline-block;
+
+}
+.lx_itemInfo{
+    width:100%;
+    height:31px;
+    position: relative;
+    z-index: 20;
+    background: #ffffff;
+}
+.lx_itemInfo span{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 5px 0 20px;
+    color: #8f8f8f;
+    font-size: 14px;
+}
+.lx_itemInfo  .lx_infoSkim{
+    background:url("../../images/lx/lx_skimNum.png") no-repeat left bottom;
+}
+.lx_itemInfo  .lx_infoRecom{
+    background:url("../../images/lx/lx_commentNum.png") no-repeat left bottom;
+}
+.lx_itemInfo  .lx_infoSkimNum,.lx_itemInfo  .lx_infoRecomNum{
+    padding-left: 0px;
+}
+.lx_itemInfo .lx_infoRecom{
+    margin-left: 35px;
+}
+.lx_listItem .lx_introMask{
+    width:300px;
+    height: 100px;
+    position: absolute;
+    bottom:0;
+    left: -10px;
+    background: #ffffff url(../../images/lx/lx_rightBg.png) no-repeat center bottom;
+}
+.lx_listItem .lx_introMaskhot{
+    width:300px;
+    height: 100px;
+    position: absolute;
+    bottom:0;
+    left: -10px;
+    background: #ffffff url(../../images/lx/lx_rightBgHot.png) no-repeat center bottom;
+}
 

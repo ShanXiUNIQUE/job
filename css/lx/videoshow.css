@@ -4,7 +4,7 @@ body{
 }
 .lx_video{
     width:1200px;
-    height:900px;
+    height:850px;
     padding-top: 200px;
     position: relative;
     margin:0 auto;
@@ -19,10 +19,9 @@ body{
 }
 .lx_video .lx_videoLeft{
     width:860px;
-    height: 900px;
+    height: 800px;
     float: left;
     margin-right:40px;
-    background: #cccccc;
 }
 .lx_comm{
     width:100%;
@@ -89,8 +88,61 @@ body{
 
 .lx_video .lx_videoRight{
     width: 260px;
-    height: 900px;
+    height: 800px;
     float: right;
     margin-right:40px;
-    background:#f40;
+}
+.lx_videoRight .lx_videoSlide{
+    width:100%;
+    height:auto;
+    margin-bottom: 35px;
+}
+.lx_videoRight .lx_slideimg{
+    width:260px;
+    height:177px;
+    border-radius: 5px;
+    behavior: url(../border-radius.htc);
+}
+.lx_videoSlide .lx_slideCon{
+    width: 255px;
+    height:155px;
+    padding-top: 10px;
+    color:#606060;
+    font-size: 14px;
+    font-family:"微软雅黑";
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+.lx_slideCon .lx_workNum,.lx_slideCon .lx_artNum,.lx_slideCon .lx_videoNum{
+    padding-right: 5px;
+}
+.lx_videoSlide .lx_renqiImg{
+    display: inline-block;
+    width:120px;
+    height:26px;
+    vertical-align: middle;
+    background:url("../../images/lx/lx_renqi.png") no-repeat center center;
+}
+.lx_videoSlide  a{
+    display: block;
+    width:64px;
+    height:30px;
+    background: url(../../images/lx/lx_sx.png) no-repeat center  center;
+}
+/* 评语 */
+.lx_softTit{
+    width:1200px;
+    height:50px;
+    margin:0 auto;
+    background:url("../../images/lx/lx_softcom.png") no-repeat left center;
+}
+.lx_softBox{
+    width:1200px;
+    height:auto;
+}
+.lx_softCon{
+    width:860px;
+    height:auto;
 }

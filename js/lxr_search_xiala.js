@@ -16,4 +16,41 @@ $(function(){
 		$(".lxr_has_content ul").hide().eq($(this).index()).show();
 	})
 
+
+	//选项卡 文章列表js
+	$('.kf_wbiCon').mouseover(function(){
+		$(this).css({
+			background:'#fff',
+			boxShadow:'1px 7px 20px #DDDDDD'
+		})
+	})
+	$('.kf_wbiCon').mouseout(function(){
+		$(this).css({
+			background:'',
+			boxShadow:''
+		})
+	})
+
+	  /*
+		进度条 
+		num 
+		max 企业关注最大值
+		bar 控制进度条进度的标签
+		arrNum 保存(企业关注的数量)进度条的值
+    */    
+    var arrNum=[10,100,60];
+    var max=120;
+    var bar=$('.progressBar div')
+    proBar(arrNum,max,bar);
+   
+    function proBar(arrNum,max,bar){
+    	for(var i=0;i<3;i++)
+    	{
+	    	 var w=arrNum[i]/max*100;
+	    	 $(bar).eq(i).css({
+	    	 	width:w
+	    	 }) 
+    	}
+    }
+
 })

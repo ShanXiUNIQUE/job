@@ -29,6 +29,7 @@
 	border-radius: 10px;
   	behavior: url(border-radius.htc);
   	position: absolute;
+  	z-index: 10;
 }
 
 .lxr_search_xiala ul li{

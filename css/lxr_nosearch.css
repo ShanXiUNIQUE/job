@@ -52,12 +52,13 @@ body{
 }
 
 .lxr_title_zp{
-	background: url(../images/lxr/lxr1.png) no-repeat 0 -149px;
-	width: 131px;
-	height:46px;
+	background: url(../images/lxr/lxr1.png) no-repeat 0 -197px;
+	width: 115px;
+	height: 46px;
+	color: #2CCEF2;
+	font-size: 20px;
 	text-align: center;
 	line-height: 44px;
-	color: #fff;
 }
 
 .lxr_title_wz{
@@ -65,7 +66,7 @@ body{
 	width: 115px;
 	height: 46px;
 	color: #2CCEF2;
-	font-size: 22px;
+	font-size: 20px;
 	text-align: center;
 	line-height: 44px;
 }
@@ -75,9 +76,19 @@ body{
 	width: 115px;
 	height: 46px;
 	color: #2CCEF2;
-	font-size: 22px;
+	font-size: 20px;
 	text-align: center;
 	line-height: 44px;
+}
+
+.lxr_change{
+	background: url(../images/lxr/lxr1.png) no-repeat 0 -149px;
+	width: 131px;
+	height:46px;
+	text-align: center;
+	line-height: 44px;
+	font-size: 20px;
+	color: #fff;
 }
 
 .lxr_title_right{

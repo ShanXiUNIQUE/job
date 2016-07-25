@@ -1,0 +1,96 @@
+@import "../reset.css";
+body{
+    background: #f4f4f4;
+}
+.lx_video{
+    width:1200px;
+    height:900px;
+    padding-top: 200px;
+    position: relative;
+    margin:0 auto;
+}
+.lx_video .lx_videoTit{
+    height:60px;
+    background:url("../../images/lx/lx_title.png") no-repeat left top;
+    font-family: "微软雅黑";
+    font-size:20px;
+    font-weight:700;
+    line-height: 60px;
+}
+.lx_video .lx_videoLeft{
+    width:860px;
+    height: 900px;
+    float: left;
+    margin-right:40px;
+    background: #cccccc;
+}
+.lx_comm{
+    width:100%;
+    height:40px;
+    line-height: 40px;
+}
+.lx_comm span{
+    display: inline-block;
+    vertical-align: middle;
+    color: #808080;
+    font-size: 12px;
+}
+.lx_comm .lx_pinkup{
+    padding:15px 15px;
+    background:url("../../images/lx/lx_pickup.png") no-repeat left bottom;
+}
+.lx_comm .lx_commNum{
+    margin-left: 20px;
+    padding:15px 20px;
+    background:url("../../images/lx/lx_shoucang.png") no-repeat left bottom;
+}
+.lx_recomvideo{
+    width:100% ;
+    height:330px;
+    margin-top: 20px;
+}
+.lx_recomvideo .lx_recomTit{
+    width:100%;
+    height:50px;
+    background: url("../../images/lx/lx_recomvideo.png") no-repeat left center;
+}
+.lx_recomvideo .lx_videoList{
+    float: left;
+    width:280px;
+    height: 280px;
+    margin-right: 10px;
+}
+.lx_videoList .lx_listImg{
+    width:100%;
+    height: 167px;
+    border-radius: 5px;
+    behavior: url(../border-radius.htc);
+    padding: 10px 5px;
+
+}
+.lx_videoList .lx_listImgHot{
+    background:url(../../images/lx/lx_listimgBg.png) no-repeat -10px -8px;
+}
+.lx_listImg img{
+    width:100%;
+    height:100%;
+}
+.lx_recomvideo .lx_videoListF{
+    margin-right:0;
+}
+.lx_videoList .lx_listtit{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #727272;
+    font-family: "微软雅黑";
+    line-height: 30px;
+}
+/* 右边 */
+
+.lx_video .lx_videoRight{
+    width: 260px;
+    height: 900px;
+    float: right;
+    margin-right:40px;
+    background:#f40;
+}

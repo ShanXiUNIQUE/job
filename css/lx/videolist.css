@@ -48,13 +48,13 @@
 .lx_personUncheck{
     width:200px;
     height:201px;
-    background: url("../../images/lx/lx_personUncheck.png") no-repeat center;
+    background: url("../../images/lx/lx_video.png") no-repeat -160px -20px ;
     position: relative;
 }
 .lx_personCheck{
     width:200px;
     height:201px;
-    background: url("../../images/lx/lx_personCheck.png") no-repeat center;
+    background: url("../../images/lx/lx_video.png") no-repeat -380px -20px;
     position: relative;
 }
 .lx_personUncheck img,.lx_personCheck img{
@@ -95,19 +95,19 @@
     height:16px;
 }
 .lx_comment .lx_skimNum{
-    background: url("../../images/lx/lx_skimNum.png");
+    background: url("../../images/lx/lx_video.png") no-repeat -20px -60px;
 }
 .lx_comment .lx_commentNum{
-    background: url("../../images/lx/lx_commentNum.png");
+    background: url("../../images/lx/lx_video.png") no-repeat -61px -84px;
 }
 .lx_comment span{
     padding:0 8px 0 5px;
 }
 .lx_rank{
-    width:150px;
+    width:130px;
     height: 20px;
     margin:0 auto;
-    background: url("../../images/lx/lx_rank.png") no-repeat center;
+    background: url("../../images/lx/lx_video.png") no-repeat -20px -120px;
 }
 
 .lx_btn{
@@ -255,10 +255,10 @@
     font-size: 14px;
 }
 .lx_itemInfo  .lx_infoSkim{
-    background:url("../../images/lx/lx_skimNum.png") no-repeat left bottom;
+    background:url("../../images/lx/lx_video.png") no-repeat -20px -51px;
 }
 .lx_itemInfo  .lx_infoRecom{
-    background:url("../../images/lx/lx_commentNum.png") no-repeat left bottom;
+    background:url("../../images/lx/lx_video.png") no-repeat -59px -74px;
 }
 .lx_itemInfo  .lx_infoSkimNum,.lx_itemInfo  .lx_infoRecomNum{
     padding-left: 0px;

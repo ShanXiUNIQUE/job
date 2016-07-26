@@ -569,12 +569,24 @@ body {
   background: #fff;
   height: 280px;
   margin-bottom: 19px;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+}
+.hnz-article .hnz-article-list .hnz-article-left .hnz-one:hover {
+  box-shadow: 0 0 20px #999;
+}
+.hnz-article .hnz-article-list .hnz-article-left .hnz-one:hover .hnz-img img {
+  transform: scale(1.1, 1.1);
 }
 .hnz-article .hnz-article-list .hnz-article-left .hnz-one .hnz-img {
   width: 300px;
   height: 280px;
   overflow: hidden;
   float: left;
+}
+.hnz-article .hnz-article-list .hnz-article-left .hnz-one .hnz-img img {
+  transition: all .5s;
+  -webkit-transition: all .5s;
 }
 .hnz-article .hnz-article-list .hnz-article-left .hnz-one .hnz-content {
   float: left;
@@ -670,11 +682,23 @@ body {
   height: 100%;
   float: right;
   background: #fff;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+}
+.hnz-article .hnz-article-list .hnz-article-right:hover {
+  box-shadow: 0 0 20px #999;
+}
+.hnz-article .hnz-article-list .hnz-article-right:hover .hnz-img img {
+  transform: scale(1.1, 1.1);
 }
 .hnz-article .hnz-article-list .hnz-article-right .hnz-img {
   width: 300px;
   height: 280px;
   overflow: hidden;
+}
+.hnz-article .hnz-article-list .hnz-article-right .hnz-img img {
+  transition: all .5s;
+  -webkit-transition: all .5s;
 }
 .hnz-article .hnz-article-list .hnz-article-right .hnz-content-top {
   height: 110px;
@@ -757,4 +781,192 @@ body {
   line-height: 20px;
   text-align: center;
   color: #fff;
+}
+.hnz-designer-box {
+  background: #fff;
+  margin-top: 50px;
+}
+.hnz-designer-box .hnz-designer {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  border-top: 1px solid transparent;
+}
+.hnz-designer-box .hnz-designer-head {
+  height: 43px;
+  margin: 50px 0 20px;
+}
+.hnz-designer-box .hnz-designer-head h3 {
+  height: 100%;
+  width: 286px;
+  background: url('../images/hnz/hnz-designer.png') no-repeat 0 center;
+  float: left;
+}
+.hnz-designer-box .hnz-designer-head a {
+  float: right;
+  height: 100%;
+  width: 145px;
+  background: url('../images/small_img.png') no-repeat 0 -146px;
+}
+.hnz-designer-box .hnz-designer-list {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one {
+  width: 33.3333%;
+  float: left;
+  height: 540px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-photo {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-photo div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-photo .hnz-designer-img {
+  position: absolute;
+  width: 244px;
+  height: 244px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-photo .hnz-designer-img img {
+  width: 100%;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-photo .hnz-zw {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  background: url("../images/hnz/hnz-all-home.png") no-repeat -90px -778px;
+  z-index: 9;
+  text-align: center;
+  line-height: 42px;
+  color: #fff;
+  left: 110px;
+  top: 280px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-photo .hnz-blue {
+  height: 160px;
+  top: 76px;
+  left: -20px;
+  background: url("../images/hnz/hnz-all-home.png") no-repeat 0 -583px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-photo .hnz-yellow {
+  width: 150px;
+  height: 160px;
+  background: url("../images/hnz/hnz-all-home.png") no-repeat 0 -844px;
+  top: 140px;
+  left: 220px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-photo .hnz-orange {
+  width: 244px;
+  height: 244px;
+  background: url("../images/hnz/hnz-all-home.png") no-repeat -454px 0;
+  top: 50px;
+  left: 40px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-photo .hnz-green {
+  width: 112px;
+  height: 140px;
+  background: url("../images/hnz/hnz-all-home.png") no-repeat -583px -263px;
+  top: 190px;
+  left: 240px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-photo .hnz-blues {
+  width: 60px;
+  height: 60px;
+  background: url("../images/hnz/hnz-all-home.png") no-repeat -630px -733px;
+  top: 80px;
+  left: 80px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-photo .hnz-greens {
+  width: 130px;
+  height: 170px;
+  background: url("../images/hnz/hnz-all-home.png") no-repeat -563px -828px;
+  top: 80px;
+  left: 240px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-info {
+  padding: 0 75px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-info .hnz-designer-name {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #595959;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-info .hnz-designer-name span {
+  color: #48c1ff;
+  display: inline-block;
+  width: 100px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-info p {
+  color: #595959;
+  height: 30px;
+  line-height: 24px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-info .hnz-designer-icon {
+  margin-top: 10px;
+  overflow: hidden;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-info .hnz-designer-icon > div {
+  width: 33.333%;
+  float: left;
+  height: 21px;
+  line-height: 21px;
+  vertical-align: middle;
+  color: #696969;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-info .hnz-designer-icon > div span {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-info .hnz-designer-icon .hnz-sc span {
+  background: url('../images/small_img.png') no-repeat -679px -22px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-info .hnz-designer-icon .hnz-ss span {
+  background: url('../images/small_img.png') no-repeat -655px -22px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-designer-one .hnz-designer-info .hnz-designer-icon .hnz-pl span {
+  background: url('../images/small_img.png') no-repeat -632px -22px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-line1 {
+  width: 100%;
+  height: 0;
+  border-bottom: 1px dashed #ccc;
+  position: absolute;
+  top: 540px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-line2 {
+  width: 100%;
+  height: 0;
+  border-bottom: 1px dashed #ccc;
+  position: absolute;
+  top: 540px;
+}
+.hnz-designer-box .hnz-designer-list .hnz-join-club {
+  margin: 0 auto;
+  display: block;
+  width: 340px;
+  height: 120px;
+  background: url("../images/hnz/hnz-all-home.png") no-repeat 0px 0px;
 }

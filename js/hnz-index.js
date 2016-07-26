@@ -46,4 +46,16 @@ $(function(){
 		var wlh_index=$(this).index(".wlh-zp-conimg");
 		$(".wlh-zp-conimg>img").eq(wlh_index).animate({width:380,height:267})
 	})
+
+	//推荐设计师
+	var designerList = $('.hnz-designer-list');
+	var l1=$('.hnz-designer-one:nth-child(3n-2)',designerList);
+	l1.find('.hnz-bg-1').addClass("hnz-blue");
+	l1.find('.hnz-bg-2').addClass("hnz-yellow");
+	var l2=$('.hnz-designer-one:nth-child(3n-1)',designerList);
+	l2.find('.hnz-bg-1').addClass("hnz-orange");
+	l2.find('.hnz-bg-2').addClass("hnz-green");
+	var l3=$('.hnz-designer-one:nth-child(3n)',designerList);
+	l3.find('.hnz-bg-1').addClass("hnz-blues");
+	l3.find('.hnz-bg-2').addClass("hnz-yellows");
 })

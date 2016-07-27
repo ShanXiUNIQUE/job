@@ -58,4 +58,9 @@ $(function(){
 	var l3=$('.hnz-designer-one:nth-child(3n)',designerList);
 	l3.find('.hnz-bg-1').addClass("hnz-blues");
 	l3.find('.hnz-bg-2').addClass("hnz-yellows");
+
+	var hnzIssue = $('.hnz-issue-r a');
+	hnzIssue.eq(1).find('.hnz-l').css('float','right')
+	hnzIssue.eq(1).find('.hnz-r').css('float','left')
+	hnzIssue.eq(1).find('.hnz-circle').css({right:-7,left:'auto'})
 })

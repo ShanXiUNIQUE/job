@@ -783,7 +783,7 @@ body {
   color: #fff;
 }
 .hnz-designer-box {
-  background: #fff;
+  background: #fcfcfc;
   margin-top: 50px;
 }
 .hnz-designer-box .hnz-designer {
@@ -812,6 +812,7 @@ body {
   width: 100%;
   height: auto;
   position: relative;
+  padding-bottom: 30px;
 }
 .hnz-designer-box .hnz-designer-list .hnz-designer-one {
   width: 33.3333%;
@@ -967,6 +968,213 @@ body {
   margin: 0 auto;
   display: block;
   width: 340px;
-  height: 120px;
+  height: 110px;
+  background: url("../images/hnz/hnz-all-home.png") no-repeat 0px 0px;
+}
+.hnz-issue-box {
+  background: #ffffff;
+  overflow: hidden;
+}
+.hnz-issue-box .hnz-issue {
+  width: 1200px;
+  margin: 0 auto;
+}
+.hnz-issue-box .hnz-issue-head {
+  height: 43px;
+  margin: 50px 0 20px;
+}
+.hnz-issue-box .hnz-issue-head h3 {
+  height: 100%;
+  width: 286px;
+  background: url('../images/hnz/hnz-hot-issue.png') no-repeat 0 center;
+  float: left;
+}
+.hnz-issue-box .hnz-issue-head a {
+  float: right;
+  height: 100%;
+  width: 145px;
+  background: url('../images/small_img.png') no-repeat 0 -146px;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-l {
+  width: 602px;
+  height: 599px;
+  background: blue;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-l img {
+  width: 100%;
+  position: absolute;
+  z-index: 98;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-l .hnz-issue-info {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  height: 146px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-l .hnz-issue-info-l {
+  width: 424px;
+  height: 90px;
+  float: left;
+  padding: 28px 28px;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-l .hnz-issue-info-l h3 {
+  font-size: 20px;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-l .hnz-issue-info-l span {
+  display: block;
+  width: 36px;
+  height: 2px;
+  background: #fff;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-l .hnz-issue-info-l p {
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  overflow: hidden;
+  color: #ccc;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-l .hnz-issue-info-r {
+  float: left;
+  width: 122px;
+  height: 100%;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-l .hnz-issue-info-r .hnz-time {
+  width: 110px;
+  font-family: arial;
+  font-size: 32px;
+  color: #ffc822;
+  display: block;
+  height: 70px;
+  line-height: 90px;
+  letter-spacing: -2px;
+  border-bottom: 1px dashed #ccc;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-l .hnz-issue-info-r .hnz-hot {
+  width: 110px;
+  height: 46px;
+  background: url('../images/small_img.png') no-repeat 0 -597px;
+  display: block;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-r {
+  width: 598px;
+  height: 100%;
+  float: right;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-r a {
+  display: block;
+  width: 100%;
+  height: 299px;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-r a .hnz-l {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-r a .hnz-l img {
+  width: 100%;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-r a .hnz-r {
+  float: right;
+  padding: 22px;
+  width: 255px;
+  height: 255px;
+  background: #fcfbfb;
+  position: relative;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-r a .hnz-r h3 {
+  font-size: 20px;
+  color: #777777;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-r a .hnz-r .hnz-line {
+  display: block;
+  width: 30px;
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-r a .hnz-r p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #888787;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-r a .hnz-r .hnz-time {
+  width: 126px;
+  height: 35px;
+  font-size: 36px;
+  letter-spacing: -2px;
+  color: #38acf6;
+  position: absolute;
+  bottom: 22px;
+  left: 22px;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-r a .hnz-r .hnz-icons {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 22px;
+  right: 22px;
+  background: url("../images/hnz/hnz-all-home.png") no-repeat 0 -283px;
+}
+.hnz-issue-box .hnz-issue-list .hnz-issue-r a .hnz-r .hnz-circle {
+  width: 12px;
+  height: 12px;
+  background: #fcfbfb;
+  border-radius: 50%;
+  position: absolute;
+  top: 42px;
+  left: -7px;
+}
+.hnz-enterprise-box {
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+.hnz-enterprise-box .hnz-enterprise {
+  width: 1200px;
+  margin: 0 auto;
+}
+.hnz-enterprise-box .hnz-enterprise-head {
+  height: 43px;
+  margin: 50px 0 20px;
+}
+.hnz-enterprise-box .hnz-enterprise-head h3 {
+  height: 100%;
+  width: 400px;
+  background: url('../images/hnz/hnz-enterprise.png') no-repeat 0 center;
+  float: left;
+}
+.hnz-enterprise-box .hnz-enterprise-head a {
+  float: right;
+  height: 100%;
+  width: 145px;
+  background: url('../images/small_img.png') no-repeat 0 -146px;
+}
+.hnz-enterprise-box .hnz-enterprise-list {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  background: url("../images/hnz/hnz-line3.png") no-repeat center top 118px;
+}
+.hnz-enterprise-box .hnz-enterprise-list div {
+  margin-top: 8px;
+  width: 20%;
+  text-align: center;
+  height: 110px;
+  float: left;
+  overflow: hidden;
+}
+.hnz-enterprise-box .hnz-enterprise-list .hnz-join-club {
+  margin: 40px auto 0;
+  display: block;
+  width: 340px;
+  height: 110px;
   background: url("../images/hnz/hnz-all-home.png") no-repeat 0px 0px;
 }

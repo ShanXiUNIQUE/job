@@ -808,7 +808,7 @@ body{
 
 //推荐设计师
 .hnz-designer-box{
-	background: #fff;
+	background: #fcfcfc;
 	margin-top:50px;
 	.hnz-designer{
 		width: @w;
@@ -832,6 +832,7 @@ body{
 			width: 100%;
 			height: auto;
 			position: relative;
+			padding-bottom: 30px;
 			.hnz-designer-one{
 				width: 33.3333%;
 				float: left;
@@ -999,7 +1000,217 @@ body{
 				margin:0 auto;
 				display: block;
 				width: 340px;
-				height: 120px;
+				height: 110px;
+				background: url("@{ilh}hnz-all-home.png") no-repeat 0px 0px;
+			}
+		}
+	}
+}
+
+//站内小贴士
+.hnz-issue-box{
+	background: #ffffff;
+	overflow: hidden;
+
+	.hnz-issue{
+		width:@w ;
+		margin:0 auto;
+
+		&-head{
+			height: 43px;
+			margin: 50px 0 20px;
+			h3{
+				height: 100%;
+				width: 286px;
+				background: url('@{ilh}hnz-hot-issue.png') no-repeat 0 center;
+				float: left;
+			}
+			a{
+				.more()
+			}
+		}
+		&-list{
+			.hnz-issue-l{
+				width: 602px;
+				height: 599px;
+				background: blue;
+				float: left;
+				overflow: hidden;
+				position: relative;
+				img{
+					width: 100%;
+					position: absolute;
+					z-index: 98;
+				}
+				.hnz-issue-info{
+					position: absolute;
+					z-index: 99;
+					width: 100%;
+					height: 146px;
+					bottom: 0;
+					background: rgba(0,0,0,0.5);
+					&-l{
+						width: 480px - 28*2;
+						height:90px;
+						float: left;
+						padding:(146px-90px)/2 28px;
+						@h:40px;
+						h3{
+							font-size: 20px;
+							color: #fff;
+							height: @h;
+							line-height: @h;
+						}
+						span{
+							display: block;
+							width:36px;
+							height: 2px;
+							background: #fff;
+						}
+						p{
+							height: 48px;
+							font-size: 16px;
+							line-height: 24px;
+							overflow: hidden;
+							color:#ccc;
+						}
+					}
+					&-r{
+						float: left;
+						width: 602px - 480px;
+						height: 100%;
+						.hnz-time{
+							width: 110px;
+							font-family: arial;
+							font-size: 32px;
+							color: #ffc822;
+							display: block;
+							height: 70px;
+							line-height: 90px;
+							letter-spacing: -2px;
+							border-bottom: 1px dashed #ccc;
+						}
+						.hnz-hot{
+							width: 110px;
+							height: 46px;
+							.bg(0,-597px);
+							display: block;
+						}
+					}
+				}
+			}
+			.hnz-issue-r{
+				width: 598px;
+				height: 100%;
+				float: right;
+				a{
+					display: block;
+					width: 100%;
+					height: 299px;
+					.hnz-l{
+						width: 50%;
+						height: 100%;
+						overflow: hidden;
+						float: left;
+						img{
+							width: 100%;
+						}
+					}
+					.hnz-r{
+						float: right;
+						padding: 22px;
+						width: 299px-44px;
+						height: 299px-44px;
+						background: #fcfbfb;
+						position: relative;
+						h3{
+							font-size: 20px;
+							color:#777777;
+						}
+						.hnz-line{
+							display: block;
+							width: 30px;
+							border-top:1px solid #ccc;
+							margin:15px 0;
+						}
+						p{
+							font-size: 14px;
+							line-height: 22px;
+							color:#888787;
+						}
+						.hnz-time{
+							width: 126px;
+							height: 35px;
+							font-size: 36px;
+							letter-spacing: -2px;
+							color:#38acf6;
+							position: absolute;
+							bottom:22px;
+							left:22px;
+						}
+						.hnz-icons{
+							width: 40px;
+							height: 40px;
+							position: absolute;
+							bottom: 22px;
+							right:22px;
+							background: url("@{ilh}hnz-all-home.png") no-repeat 0 -283px;
+						}
+						.hnz-circle{
+							width: 12px;
+							height: 12px;
+							background: #fcfbfb;
+							border-radius: 50%;
+							position: absolute;
+							top:42px;
+							left:-7px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//合作企业
+.hnz-enterprise-box{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	.hnz-enterprise{
+		width:@w ;
+		margin:0 auto;
+		&-head{
+			height: 43px;
+			margin: 50px 0 20px;
+			h3{
+				height: 100%;
+				width: 400px;
+				background: url('@{ilh}hnz-enterprise.png') no-repeat 0 center;
+				float: left;
+			}
+			a{
+				.more()
+			}
+		}
+		&-list{
+			width: 100%;
+			height: auto;
+			padding-bottom: 30px;
+			background: url("@{ilh}hnz-line3.png") no-repeat center top 118px;
+			div{
+				margin-top:8px;
+				width: 20%;
+				text-align: center;
+				height: 110px;
+				float: left;
+				overflow: hidden;
+			}
+			.hnz-join-club{
+				margin:40px auto 0;
+				display: block;
+				width: 340px;
+				height: 110px;
 				background: url("@{ilh}hnz-all-home.png") no-repeat 0px 0px;
 			}
 		}

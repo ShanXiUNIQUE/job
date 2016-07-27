@@ -23,11 +23,22 @@
 }
 
 .lxr_zhezhao_min input{
+	width: 1200px;
 	margin-top: 50px;
-	font-size: 100px;
+	font-size: 190px;
 	background: url(../images/lxr/lxr_zhezhao.png) no-repeat center;
 	border: 0;
 	color: #fff;
+}
+
+.lxr_zhezhao_min form{
+	position: relative;
+}
+
+#lxr_xx{
+	position: absolute;
+	right: 20px;top: 110px;
+	display: none;
 }
 
 #lxr_zhezhao_close{

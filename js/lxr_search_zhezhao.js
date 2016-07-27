@@ -9,18 +9,24 @@ $(function () {
 	})
 
 	$(".lxr_zhezhao_tab>div").click(function(){
-		$(".lxr_zhezhao_min>input").val($(this).text());
+		$(".lxr_input").val($(this).text());
+		$(".lxr_input").focus();
 	})
 
-	$(".lxr_zhezhao_min>input").focus(function(){
-		if((!$(".lxr_zhezhao_min>input").val())||($(".lxr_zhezhao_min>input").val()=="Search"))
-			$(".lxr_zhezhao_min>input").val("");
+	$(".lxr_input").focus(function(){
+		if((!$(".lxr_input").val())||($(".lxr_input").val()=="Search"))
+			$(".lxr_input").val("");
 	})
 	
-	$(".lxr_zhezhao_min>input").blur(function(){
-		if(!$(".lxr_zhezhao_min>input").val())
-			$(".lxr_zhezhao_min>input").val("Search");
+	$(".lxr_input").blur(function(){
+		if(!$(".lxr_input").val())
+			$(".lxr_input").val("Search");
 	})
-	
 
+	$(".lxr_input").keypress(function(e){
+		if (e.keyCode == 13) {
+			$(".lxr_zhezhao_min>form").submit();
+		};
+	})
+	
 })

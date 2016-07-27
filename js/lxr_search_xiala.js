@@ -11,6 +11,7 @@ $(function(){
 	})
 
 	// 选项卡
+	$(".lxr_has_content ul").hide().eq(0).show();
 	$(".lxr_title_center div").click(function(){
 		$(".lxr_title_center div").eq($(this).index()).addClass("lxr_change").siblings().removeClass("lxr_change");
 		$(".lxr_has_content ul").hide().eq($(this).index()).show();
